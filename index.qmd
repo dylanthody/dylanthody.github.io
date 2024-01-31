@@ -1,32 +1,32 @@
 ---
-title: "Dylan Thody"
+title: "Dylan Thody" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: /Users/dylanthody/Pictures/Photos Library.photoslibrary/resources/renders/7/7D26F11A-5D84-487E-94EF-D195AC2B6D97_1_201_a.jpeg
   image-width: 16em
   image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/dylan-thody-02b386233/
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://www.instagram.com/dylanthody/?hl=en
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/dylanthody/dylanthody.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: /Users/dylanthody/Downloads/Dylan Thody Resume (1).pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: dylanthody@gmail.com
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Student at SUNY Geneseo. Student member of the New York State Society of Certified Public Accountants. Member of the Varsity Men's Soccer Team.
 
 ## Education
 
@@ -36,6 +36,8 @@ Minor in Data Analytics
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+Mens Warehouse | Sales Associate | Oct 2021 - Aug 2021
+
+Jersey Mikes Sub's | Cook | Dec 2022 - Jan 2024
 
 
