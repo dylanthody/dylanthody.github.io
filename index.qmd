@@ -18,7 +18,7 @@ about:
       href: https://github.com/dylanthody/dylanthody.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: /Users/dylanthody/Downloads/Dylan Thody Resume (1).pdf
+      href: dt-resume.pdf
     - icon: mailbox
       text: Email
       href: mailto:dylanthody@gmail.com
