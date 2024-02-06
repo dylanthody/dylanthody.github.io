@@ -3,8 +3,8 @@ title: "Dylan Thody"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: DT-Photo.png
-  image-width: 16em
-  image-shape: round # rectangle  round  rounded
+  image-width: 20em
+  image-shape: rectangle # rectangle  round  rounded
   
   links:
     - icon: linkedin
