@@ -21,7 +21,7 @@ about:
       href: /Users/dylanthody/Downloads/Dylan Thody Resume (1).pdf
     - icon: mailbox
       text: Email
-      href: dylanthody@gmail.com
+      href: mailto:dylanthody@gmail.com
 
 ---
 
