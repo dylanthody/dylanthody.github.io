@@ -18,7 +18,7 @@ about:
       href: https://github.com/dylanthody/dylanthody.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: Dt0208.pdf
+      href: DT0208.pdf
     - icon: mailbox
       text: Email
       href: mailto:dylanthody@gmail.com
