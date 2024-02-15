@@ -3,7 +3,7 @@ title: "Python Basics"
 author: "Dylan Thody"
 date: "2024-02-15"
 categories: [variables, values, types]
-image: "image.png"
+image: "Pythoncartoon.pdf"
 
 ---
 
