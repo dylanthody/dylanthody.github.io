@@ -1,0 +1,23 @@
+---
+title: "Python Basics"
+author: "Dylan Thody"
+date: "2024-02-15"
+categories: [variables, values, types]
+image: "image.png"
+
+---
+
+## Variables
+
+A value is datum (literal) such as a number or text.
+
+There are different types of values:
+
+* 323.3 is known as a float or double;
+* 22 is an integer
+* "Hello World!" is a string.
+
+```{python}
+a = 10
+print(a)
+```

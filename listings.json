@@ -2,8 +2,9 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/beer-markets/beer-markets.html",
       "/posts/starwars/starwars_df.html",
+      "/posts/Python Basics/pythonbasics.html",
+      "/posts/Arsenal/beer-markets.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]

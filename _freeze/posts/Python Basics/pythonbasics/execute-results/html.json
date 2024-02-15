@@ -1,0 +1,11 @@
+{
+  "hash": "ac645f993641a08b448a09c880240872",
+  "result": {
+    "markdown": "---\ntitle: \"Python Basics\"\nauthor: \"Dylan Thody\"\ndate: \"2024-02-15\"\ncategories: [variables, values, types]\nimage: \"image.png\"\n\n---\n\n## Variables\n\nA value is datum (literal) such as a number or text.\n\nThere are different types of values:\n\n* 323.3 is known as a float or double;\n* 22 is an integer\n* \"Hello World!\" is a string.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\na = 10\nprint(a)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n10\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "pythonbasics_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

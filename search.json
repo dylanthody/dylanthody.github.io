@@ -44,21 +44,21 @@
   {
     "objectID": "posts/starwars/starwars_df.html",
     "href": "posts/starwars/starwars_df.html",
-    "title": "Starwars",
+    "title": "Star Wars",
     "section": "",
     "text": "Let’s analyze the starwars data:\nstarwars &lt;- read_csv(\"https://bcdanl.github.io/data/starwars.csv\")"
   },
   {
     "objectID": "posts/starwars/starwars_df.html#variable-description-for-starwars-data.frame",
     "href": "posts/starwars/starwars_df.html#variable-description-for-starwars-data.frame",
-    "title": "Starwars",
+    "title": "Star Wars",
     "section": "Variable Description for starwars data.frame",
     "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
   },
   {
     "objectID": "posts/starwars/starwars_df.html#human-vs.-droid",
     "href": "posts/starwars/starwars_df.html#human-vs.-droid",
-    "title": "Starwars",
+    "title": "Star Wars",
     "section": "Human vs. Droid",
     "text": "Human vs. Droid\n\nggplot(data = \n         starwars %&gt;% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
   },
@@ -123,6 +123,34 @@
     "href": "blog-listing.html",
     "title": "Insightful Analytics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nArsenal\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nDylan Thody\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nOct 27, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nStar Wars\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\nDylan Thody\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nPython Basics\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\nDylan Thody\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nArsenal\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nDylan Thody\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nOct 27, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Python Basics/pythonbasics.html",
+    "href": "posts/Python Basics/pythonbasics.html",
+    "title": "Python Basics",
+    "section": "",
+    "text": "A value is datum (literal) such as a number or text.\nThere are different types of values:\n\n323.3 is known as a float or double;\n22 is an integer\n“Hello World!” is a string.\n\n\na = 10\nprint(a)\n\n10"
+  },
+  {
+    "objectID": "posts/Python Basics/pythonbasics.html#variable-description-for-starwars-data.frame",
+    "href": "posts/Python Basics/pythonbasics.html#variable-description-for-starwars-data.frame",
+    "title": "Python Basics",
+    "section": "Variable Description for starwars data.frame",
+    "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
+  },
+  {
+    "objectID": "posts/Python Basics/pythonbasics.html#human-vs.-droid",
+    "href": "posts/Python Basics/pythonbasics.html#human-vs.-droid",
+    "title": "Python Basics",
+    "section": "Human vs. Droid",
+    "text": "Human vs. Droid\n\nggplot(data = \n         starwars %&gt;% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
+  },
+  {
+    "objectID": "posts/Python Basics/pythonbasics.html#variables",
+    "href": "posts/Python Basics/pythonbasics.html#variables",
+    "title": "Python Basics",
+    "section": "",
+    "text": "A value is datum (literal) such as a number or text.\nThere are different types of values:\n\n323.3 is known as a float or double;\n22 is an integer\n“Hello World!” is a string.\n\n\na = 10\nprint(a)\n\n10"
   }
 ]
