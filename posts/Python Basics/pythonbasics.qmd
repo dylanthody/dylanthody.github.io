@@ -7,7 +7,6 @@ image: "Pythoncartoon.pdf"
 
 ---
 
-## Variables
 
 A value is datum (literal) such as a number or text.
 
@@ -70,5 +69,43 @@ print(boolean_condition1)
 
 boolean_condition2 = 10 == '10'
 print(boolean_condition2)
+```
+
+The real power of conditions comes when we start to use them in more complex examples, such as if statements
+```{python}
+name = "Geneseo"
+score = 99
+
+if name == "Geneseo" and score > 90:
+    print("Geneseo, you achieved a high score.")
+
+if name == "Geneseo" or score > 90:
+    print("You could be called Geneseo or have a high score")
+
+if name != "Geneseo" and score > 90:
+    print("You are not called Geneseo and you have a high score")
+```
+
+One of the most useful conditional keywords is "in", this one must pop up ten times a day in most coders' lives because it can pick out a variable or make sure something is where it's supposed to be
+```{python}
+name_list = ["Lovelace", "Smith", "Hopper", "Babbage"]
+
+print("Lovelace" in name_list)
+
+print("Bob" in name_list)
+```
+
+One conditional construct we're bound to use at some point, is the if-else chain
+```{python}
+score = 98
+
+if score == 100:
+    print("Top marks!")
+elif score > 90 and score < 100:
+    print("High score!")
+elif score > 10 and score <= 90:
+    pass
+else:
+    print("Better luck next time.")
 ```
 
