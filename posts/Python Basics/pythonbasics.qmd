@@ -21,3 +21,13 @@ There are different types of values:
 a = 10
 print(a)
 ```
+
+Here we are going to define a list containing elements of different data types
+
+```{python}
+list_example = [10, 1.23, "like this", True, None]
+#Print the entire list
+print(list_example)
+```
+
+
