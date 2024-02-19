@@ -30,4 +30,23 @@ list_example = [10, 1.23, "like this", True, None]
 print(list_example)
 ```
 
+```{python}
+string_one = "This is an example "
+string_two = "of string concatenation"
+#all of the basic operators we see in math are available to use
+# + for addition, - for subtraction, * for multiplication
+# ** for exponent/powers, / for division, // for integer division
+string_full = string_one + string_two
+#this works as you would expect on numbers
+print(string_full)
+```
 
+It works for lists too
+
+```{python}
+#it works for lists too
+list_one = ["apples", "oranges"]
+list_two = ["pears", "satsumas"]
+list_full = list_one + list_two
+print(list_full)
+```
