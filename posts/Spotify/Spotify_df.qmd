@@ -3,7 +3,7 @@ title: "Spotify"
 author: "Dylan Thody"
 date: "2024-03-05"
 categories: [variables, code, analysis]
-image: "image.png"
+image: "spotifyimage.png"
 
 execute: 
   warning: false
