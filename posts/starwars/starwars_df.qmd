@@ -2,7 +2,7 @@
 title: "Star Wars"
 author: "Dylan Thody"
 date: "2024-02-15"
-categories: [variables, code, analysis]
+categories: [variables, music, data analysis]
 image: "image.png"
 
 execute: 
