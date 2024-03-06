@@ -75,10 +75,25 @@ You can see in the following data table a table representing them and the Playli
 
 ```{r}
 selected_artists <- c("Bieber", "Bruno Mars", "Nirvana", "Adele")
-filtered_data <- subset(spotify, artist_name %in% selected_artists)
+favorite_artists <- subset(spotify, artist_name %in% selected_artists)
 ```
 
 ```{r}
 #| results: asis
-rmarkdown::paged_table(filtered_data)
+rmarkdown::paged_table(favorite_artists)
+```
+
+# Showcasing only wedding playlist
+
+For all you readers out there looking forward to getting married, I sorted this to only show you wedding songs...
+
+You're welcome 
+
+```{r}
+wedding_subset <- subset(spotify, playlist_name == "Wedding")
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(wedding_subset)
 ```
