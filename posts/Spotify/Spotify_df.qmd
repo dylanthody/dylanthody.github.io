@@ -114,3 +114,7 @@ mom_subset <- subset(spotify, playlist_name %in% selected_playlist_2)
 #| results: asis
 rmarkdown::paged_table(mom_subset)
 ```
+
+I hope my data representation helped you find what you were looking for. If you have any requests please email me through the home page and I will create a new data table for you!
+
+Have a great day!
