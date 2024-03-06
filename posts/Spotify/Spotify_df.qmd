@@ -97,3 +97,18 @@ wedding_subset <- subset(spotify, playlist_name == "Wedding")
 #| results: asis
 rmarkdown::paged_table(wedding_subset)
 ```
+
+# Mom's, this one is for you
+
+For the last data set, I will separate all the songs in the "Mom's playlist" so they now always have got something to listen to
+
+Once again.. you're welcome
+
+```{r}
+mom_subset <- subset(spotify, playlist_name == "Mom's playlist")
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(mom_subset)
+```
