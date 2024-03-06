@@ -15,16 +15,36 @@ toc: true
 # Variable Description
 
 pid: playlist ID; unique ID for playlist
+
 playlist_name: a name of playlist
+
 pos: a position of the track within a playlist (starting from 0)
+
 artist_name: name of the track’s primary artist
+
 track_name: name of the track
+
 duration_ms: duration of the track in milliseconds
+
 album_name: name of the track’s album
 
-```{python}
-import pandas as pd
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
 'https://bcdanl.github.io/data/spotify_all.csv'
-spotify = pd.read_csv('https://bcdanl.github.io/data/spotify_all.csv')
-print(spotify)
+```
+
+```{r}
+spotify <- read_csv("https://bcdanl.github.io/data/spotify_all.csv")
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(spotify)
 ```
