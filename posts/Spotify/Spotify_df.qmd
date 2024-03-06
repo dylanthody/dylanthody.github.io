@@ -48,3 +48,21 @@ spotify <- read_csv("https://bcdanl.github.io/data/spotify_all.csv")
 #| results: asis
 rmarkdown::paged_table(spotify)
 ```
+
+
+
+# Variable Description for `Spotify` data.frame
+
+The following describes the variables in the `Spotify` data.frame.
+
+- `pid`
+Playlist Identification Number
+
+- `playlist_name`
+Name of the Playlist
+
+- `pos`
+Song Identification Number
+
+- `artist_name`
+Name of the Artist
