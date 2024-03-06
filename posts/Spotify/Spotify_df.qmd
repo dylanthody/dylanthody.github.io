@@ -90,8 +90,8 @@ For all you readers out there looking forward to getting married, I sorted this 
 You're welcome 
 
 ```{r}
-selected_playlist <- c("Wedding")
-wedding_subset <- subset(spotify, playlist_name %in% selected_playlist)
+selected_playlist_1 <- c("Wedding")
+wedding_subset <- subset(spotify, playlist_name %in% selected_playlist_1)
 ```
 
 ```{r}
@@ -106,7 +106,8 @@ For the last data set, I will separate all the songs in the "Mom's playlist" so 
 Once again.. you're welcome
 
 ```{r}
-mom_subset <- subset(spotify, playlist_name == "Mom's playlist")
+selected_playlist_2 <- c("Mom's playlist")
+mom_subset <- subset(spotify, playlist_name %in% selected_playlist_2)
 ```
 
 ```{r}
