@@ -66,3 +66,19 @@ Song Identification Number
 
 - `artist_name`
 Name of the Artist
+
+# Favorite Artists
+
+Some of my favorite artists include Justin Bieber, Bruno Mars, Nirvana, and Adele
+
+You can see in the following data table a table representing them and the Playlists that you can find them in
+
+```{r}
+selected_artists <- c("Bieber", "Bruno Mars", "Nirvana", "Adele")
+filtered_data <- subset(spotify, artist_name %in% selected_artists)
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(filtered_data)
+```
