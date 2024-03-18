@@ -2,8 +2,8 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/Spotify/Spotify_df.html",
       "/posts/Spotify 2/Spotify_df2.html",
+      "/posts/Spotify/Spotify_df.html",
       "/posts/starwars/starwars_df.html",
       "/posts/Python Basics/pythonbasics.html",
       "/posts/Arsenal/beer-markets.html",

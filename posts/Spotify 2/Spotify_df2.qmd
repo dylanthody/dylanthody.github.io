@@ -1,9 +1,9 @@
 ---
-title: "Spotify"
+title: "Spotify #2"
 author: "Dylan Thody"
-date: "2024-03-05"
+date: "2024-03-08"
 categories: [variables, code, analysis]
-image: "spotifyimage.png"
+image: "spotifyimage2.png"
 
 execute: 
   warning: false
@@ -69,12 +69,19 @@ Name of the Artist
 
 # Favorite Artists
 
-Some of my favorite artists include Justin Bieber, Bruno Mars, Nirvana, and Adele
+As discussed in the previous blog... some of my favorite artists are Justin Bieber, Bruno Mars, Nirvana, and Adele
 
-You can see in the following data table a table representing them and the Playlists that you can find them in
+Although today, we are going to be focused on my favorite of the favorites... Bruno Mars.
+
+## Bruno Mars Summary
+
+Bruno Mars is a Grammy-winning singer, songwriter, and record producer known for his smooth vocals and versatile musical style. Born in Honolulu, Hawaii, Mars rose to fame with hits like "Just the Way You Are," "Locked Out of Heaven," and "Uptown Funk." He is celebrated for his dynamic stage presence and ability to blend various genres such as pop, R&B, funk, and reggae. With multiple chart-topping singles and albums, Bruno Mars continues to be a prominent figure in the music industry, captivating audiences worldwide with his catchy tunes and energetic performances.
+
+
+You can see in the data table following, a set that focuses solely on Bruno Mars.
 
 ```{r}
-selected_artists <- c("Bieber", "Bruno Mars", "Nirvana", "Adele")
+selected_artists <- c("Bruno Mars")
 favorite_artists <- subset(spotify, artist_name %in% selected_artists)
 ```
 
