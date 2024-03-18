@@ -1,0 +1,120 @@
+---
+title: "Spotify"
+author: "Dylan Thody"
+date: "2024-03-05"
+categories: [variables, code, analysis]
+image: "spotifyimage.png"
+
+execute: 
+  warning: false
+  message: false
+  
+toc: true
+---
+
+# Variable Description
+
+pid: playlist ID; unique ID for playlist
+
+playlist_name: a name of playlist
+
+pos: a position of the track within a playlist (starting from 0)
+
+artist_name: name of the track’s primary artist
+
+track_name: name of the track
+
+duration_ms: duration of the track in milliseconds
+
+album_name: name of the track’s album
+
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+'https://bcdanl.github.io/data/spotify_all.csv'
+```
+
+```{r}
+spotify <- read_csv("https://bcdanl.github.io/data/spotify_all.csv")
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(spotify)
+```
+
+
+
+# Variable Description for `Spotify` data.frame
+
+The following describes the variables in the `Spotify` data.frame.
+
+- `pid`
+Playlist Identification Number
+
+- `playlist_name`
+Name of the Playlist
+
+- `pos`
+Song Identification Number
+
+- `artist_name`
+Name of the Artist
+
+# Favorite Artists
+
+Some of my favorite artists include Justin Bieber, Bruno Mars, Nirvana, and Adele
+
+You can see in the following data table a table representing them and the Playlists that you can find them in
+
+```{r}
+selected_artists <- c("Bieber", "Bruno Mars", "Nirvana", "Adele")
+favorite_artists <- subset(spotify, artist_name %in% selected_artists)
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(favorite_artists)
+```
+
+# Showcasing only wedding playlist
+
+For all you readers out there looking forward to getting married, I sorted this to only show you wedding songs...
+
+You're welcome 
+
+```{r}
+selected_playlist_1 <- c("Wedding")
+wedding_subset <- subset(spotify, playlist_name %in% selected_playlist_1)
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(wedding_subset)
+```
+
+# Mom's, this one is for you
+
+For the last data set, I will separate all the songs in the "Mom's playlist" so they now always have got something to listen to
+
+Once again.. you're welcome
+
+```{r}
+selected_playlist_2 <- c("Mom's playlist")
+mom_subset <- subset(spotify, playlist_name %in% selected_playlist_2)
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(mom_subset)
+```
+
+I hope my data representation helped you find what you were looking for. If you have any requests please email me through the home page and I will create a new data table for you!
+
+Have a great day!
