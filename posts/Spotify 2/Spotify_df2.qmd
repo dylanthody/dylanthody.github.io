@@ -123,4 +123,4 @@ rmarkdown::paged_table(bruno_wedding_subset)
 
 I hope my data representation helped you find what you were looking for. If you have any requests please email me through the home page and I will create a new data table for you!
 
-Have a great day!
+Have an awesome day!
