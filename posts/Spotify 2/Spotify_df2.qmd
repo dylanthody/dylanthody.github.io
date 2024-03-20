@@ -30,7 +30,6 @@ album_name: name of the track’s album
 
 ```{r}
 #| include: false
-
 library(knitr)
 library(rmarkdown)
 library(tidyverse)
@@ -90,36 +89,36 @@ favorite_artists <- subset(spotify, artist_name %in% selected_artists)
 rmarkdown::paged_table(favorite_artists)
 ```
 
-# Showcasing only wedding playlist
+# Bruno's Top Hit's
 
-For all you readers out there looking forward to getting married, I sorted this to only show you wedding songs...
+Bruno Mars has produced numerous chart-topping hits that have left an indelible mark on the music industry. His repertoire includes unforgettable tracks like "Just the Way You Are," a soulful declaration of love that earned him his first Grammy Award. "Locked Out of Heaven" showcases Mars' ability to infuse pop with elements of rock and funk, while "Uptown Funk," his collaboration with Mark Ronson, became a global sensation with its infectious groove and retro vibes. Additionally, "Grenade" and "When I Was Your Man" demonstrate Mars' prowess in delivering emotionally resonant ballads, each capturing raw vulnerability and heartfelt storytelling. These hits not only showcase Bruno Mars' incredible vocal range and songwriting talent but also solidify his status as one of the most influential artists of his generation.
 
-You're welcome 
+On this next table, you can see all of Bruno's hit songs! 
 
 ```{r}
-selected_playlist_1 <- c("Wedding")
-wedding_subset <- subset(spotify, playlist_name %in% selected_playlist_1)
+selected_playlist_1 <- c("Top hits")
+hits_subset <- subset(spotify, playlist_name %in% selected_playlist_1)
+bruno_hits_subset <- subset(hits_subset, artist_name %in% selected_artists)
 ```
 
 ```{r}
 #| results: asis
-rmarkdown::paged_table(wedding_subset)
+rmarkdown::paged_table(bruno_hits_subset)
 ```
 
-# Mom's, this one is for you
+# Bruno Mar's Wedding Songs
 
-For the last data set, I will separate all the songs in the "Mom's playlist" so they now always have got something to listen to
-
-Once again.. you're welcome
+Bruno Mars is renowned for his ability to infuse his music with infectious energy, heartfelt sentiment, and timeless melodies, making him a popular choice for wedding playlists. His soulful vocals coupled with upbeat rhythms create an atmosphere of joy and celebration, perfect for weddings. Mars' lyrics often center around themes of love, romance, and devotion, resonating deeply with couples embarking on their journey together. Additionally, his diverse musical style, drawing inspiration from funk, R&B, and pop, ensures that there is a Bruno Mars song to suit every couple's taste and wedding vibe.
 
 ```{r}
-selected_playlist_2 <- c("Mom's playlist")
-mom_subset <- subset(spotify, playlist_name %in% selected_playlist_2)
+selected_playlist_2 <- c("Wedding")
+wedding_subset <- subset(spotify, playlist_name %in% selected_playlist_2)
+bruno_wedding_subset <- subset(wedding_subset, artist_name %in% selected_artists)
 ```
 
 ```{r}
 #| results: asis
-rmarkdown::paged_table(mom_subset)
+rmarkdown::paged_table(bruno_wedding_subset)
 ```
 
 I hope my data representation helped you find what you were looking for. If you have any requests please email me through the home page and I will create a new data table for you!
