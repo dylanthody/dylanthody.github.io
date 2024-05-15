@@ -1,6 +1,6 @@
 ---
-title: DANL Project
-subtitle: "Data-Driven Mastery: Unlocking Business Potential"
+title: DANL 210 Project
+subtitle: "Data Collection: Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis"
 author: 
   - Dylan Thody
   - Owen Ellick
@@ -45,16 +45,47 @@ theme_set(theme_ipsum()+
 
 # Introduction
 
-About this project :clap:
-
-```{r}
-1 + 1
-```
+The integration of Environmental, Social, and Governance (ESG) metrics with financial analysis has become increasingly significant in recent years. ESG metrics provide a comprehensive view of a company's ethical impact and sustainability practices, which are crucial for investors, regulators, and other stakeholders. Traditional financial analysis, while essential, often fails to capture these non-financial factors that can materially impact a company's performance and long-term value. Therefore, unifying ESG metrics with financial analysis is not only relevant but also necessary to foster sustainable economic growth, enhance risk management, and promote responsible investment practices. Despite the recognized importance of ESG factors, there is still a lack of standardization and integration in how these metrics are assessed and incorporated into financial analysis. This project aims to address the specific problem of fragmented and inconsistent ESG reporting, which creates challenges for investors and other stakeholders in making informed decisions. The primary issue is the absence of a unified framework that combines ESG metrics with traditional financial indicators, leading to gaps in the evaluation of a company's overall performance and sustainability. By developing a comprehensive and standardized approach to ESG and financial analysis integration, this research seeks to enhance the reliability and comparability of ESG data, ultimately supporting more effective and responsible decision-making in the financial markets.
 
 
-# Data
+# Data Collection
 
-The data.frame `mpg` contains a subset of the fuel economy data that the EPA makes available on [https://fueleconomy.gov/](https://fueleconomy.gov/). It contains only models which had a new release every year between 1999 and 2008 - this was used as a proxy for the popularity of the car. :oncoming_automobile:
+## yfinance
+
+yfinance is a Python library that provides an easy to use interface in order to access financial data from Yahoo Finance. 
+
+To use it, you have to first install yfinance using:
+pip install yfinance
+
+Then you create a ticker object for the company you are interested in using. For example I will create a ticker object for Apple below:
+ticker = yf.Ticker("AAPL")
+
+To retrieve financials for annual data, you use:
+ticker.financials
+
+To get access to a company balance sheet, you use:
+ticker.balance_sheet
+
+To get access to a Cash Flow Statement, you use:
+ticker.cashflow
+
+yfinance is highly effecient for pulling structured financial data quickly, making it ideal for financial anlaysis and modeling.
+
+## selenium
+
+selenium is a powerful tool for web scraping and browser automation. It can be used to extract ESG (Environmental, Social, and Governance) data from websites like Yahoo Finance that do not provide an API for such data.
+
+To install selenium you use:
+pip install selenium
+
+To navigate to Web Pages you use the WebDriver to the target URL which in this case would be to the Yahoo Finance page.
+
+Use WebDriver methods to locate and extract ESG data elements from the webpage using techniques such as XPath or CSS selectors.
+
+You can also handle page loading and dynamic content using:
+time.sleep()
+
+Combining yfinance for financial and accounting data with selenium for ESG data allows you to comprehensively analyze a company’s performance and sustainability. This dual approach leverages the strengths of both libraries, providing a robust solution for data retrieval in financial analysis and ESG reporting.
 
 
 ## Summary Statistics
