@@ -196,20 +196,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="yfinance" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="yfinance"><span class="header-section-number">2.1</span> yfinance</h2>
 <p>yfinance is a Python library that provides an easy to use interface in order to access financial data from Yahoo Finance.</p>
-<p>To use it, you have to first install yfinance using: pip install yfinance</p>
-<p>Then you create a ticker object for the company you are interested in using. For example I will create a ticker object for Apple below: ticker = yf.Ticker(“AAPL”)</p>
-<p>To retrieve financials for annual data, you use: ticker.financials</p>
-<p>To get access to a company balance sheet, you use: ticker.balance_sheet</p>
-<p>To get access to a Cash Flow Statement, you use: ticker.cashflow</p>
+<p>To use it, you have to first install yfinance using:</p>
+<p>pip install yfinance</p>
+<p>Then you create a ticker object for the company you are interested in using. For example I will create a ticker object for Apple below:</p>
+<p>ticker = yf.Ticker(“AAPL”)</p>
+<p>To retrieve financials for annual data, you use:</p>
+<p>ticker.financials</p>
+<p>To get access to a company balance sheet, you use:</p>
+<p>ticker.balance_sheet</p>
+<p>To get access to a Cash Flow Statement, you use:</p>
+<p>ticker.cashflow</p>
 <p>yfinance is highly effecient for pulling structured financial data quickly, making it ideal for financial anlaysis and modeling.</p>
 </section>
 <section id="selenium" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="selenium"><span class="header-section-number">2.2</span> selenium</h2>
 <p>selenium is a powerful tool for web scraping and browser automation. It can be used to extract ESG (Environmental, Social, and Governance) data from websites like Yahoo Finance that do not provide an API for such data.</p>
-<p>To install selenium you use: pip install selenium</p>
+<p>To install selenium you use:</p>
+<p>pip install selenium</p>
 <p>To navigate to Web Pages you use the WebDriver to the target URL which in this case would be to the Yahoo Finance page.</p>
 <p>Use WebDriver methods to locate and extract ESG data elements from the webpage using techniques such as XPath or CSS selectors.</p>
-<p>You can also handle page loading and dynamic content using: time.sleep()</p>
+<p>You can also handle page loading and dynamic content using:</p>
+<p>time.sleep()</p>
 <p>Combining yfinance for financial and accounting data with selenium for ESG data allows you to comprehensively analyze a company’s performance and sustainability. This dual approach leverages the strengths of both libraries, providing a robust solution for data retrieval in financial analysis and ESG reporting.</p>
 </section>
 <section id="summary-statistics" class="level2" data-number="2.3">
