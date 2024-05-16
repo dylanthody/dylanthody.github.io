@@ -57,27 +57,27 @@ yfinance is a Python library that provides an easy to use interface in order to 
 
 To use it, you have to first install yfinance using:
 
-pip install yfinance
+'pip install yfinance'
 
 
 Then you create a ticker object for the company you are interested in using. For example I will create a ticker object for Apple below:
 
-ticker = yf.Ticker("AAPL")
+'ticker = yf.Ticker("AAPL")'
 
 
 To retrieve financials for annual data, you use:
 
-ticker.financials
+'ticker.financials'
 
 
 To get access to a company balance sheet, you use:
 
-ticker.balance_sheet
+'ticker.balance_sheet'
 
 
 To get access to a Cash Flow Statement, you use:
 
-ticker.cashflow
+'ticker.cashflow'
 
 
 yfinance is highly effecient for pulling structured financial data quickly, making it ideal for financial anlaysis and modeling.
@@ -89,7 +89,7 @@ selenium is a powerful tool for web scraping and browser automation. It can be u
 
 To install selenium you use:
 
-pip install selenium
+'pip install selenium'
 
 
 To navigate to Web Pages you use the WebDriver to the target URL which in this case would be to the Yahoo Finance page.
@@ -100,40 +100,343 @@ Use WebDriver methods to locate and extract ESG data elements from the webpage u
 
 You can also handle page loading and dynamic content using:
 
-time.sleep()
+'time.sleep()'
 
 
 Combining yfinance for financial and accounting data with selenium for ESG data allows you to comprehensively analyze a company’s performance and sustainability. This dual approach leverages the strengths of both libraries, providing a robust solution for data retrieval in financial analysis and ESG reporting.
 
 
-## Summary Statistics
+# Descriptive Statistics
+
+Below I am going to provide both grouped and un-grouped descriptive statistics and distribution plots for the ESG data and the finance/accounting data. In addition to that, I will provide correlation heat maps using cor() and seaborn.heatmap().
+
+First you need to load the necessary libraries.
 
 ```{r}
-mpg <- ggplot2::mpg
+# Install and load reticulate package
+install.packages("reticulate")
+library(reticulate)
+
+# Set the Python path
+use_python("/opt/anaconda3/bin/python3")
+
+# Install required Python packages using reticulate
+py_install("pandas")
+py_install("seaborn")
+py_install("matplotlib")
+
+```
+
+Then, you need to load and preprocess data using Python.
+
+```{r}
+library(reticulate)
+use_python("/opt/anaconda3/bin/python3")
+
+# Run Python code to load and preprocess data
+py_run_string("
+import yfinance as yf
+import pandas as pd
+
+# Load financial data
+financial_data = pd.read_csv('yfinance-history.csv')
+
+# Load ESG data
+esg_data = pd.read_csv('esg_proj_data.csv')
+esg_data.dropna(inplace=True)
+esg_data.to_csv('cleaned_esg_data.csv', index=False)
+")
+
+# Read the data back into R
+financial_data <- read.csv("financial_data.csv")
+esg_data <- read.csv("cleaned_esg_data.csv")
+
+```
+
+Next up, I am going to make the descriptive statistics and distribution plots.
+
+```{r}
+# Ungrouped descriptive statistics for financial data
+financial_desc <- summary(financial_data)
+
+# Ungrouped descriptive statistics for ESG data
+esg_desc <- summary(esg_data)
+
+# Print descriptive statistics
+print(financial_desc)
+print(esg_desc)
 ```
 
 ```{r}
-#| results: asis
-#| echo: false
-rmarkdown::paged_table(mpg) 
+# Grouped descriptive statistics by company symbol for financial data
+library(dplyr)
+grouped_financial_desc <- financial_data %>%
+  group_by(Symbol) %>%
+  summarize(across(everything(), list(mean = mean, sd = sd)))
+
+# Grouped descriptive statistics by company for ESG data
+grouped_esg_desc <- esg_data %>%
+  group_by(Comapny.Name) %>%
+  summarize(across(everything(), list(mean = mean, sd = sd)))
+
+# Print grouped descriptive statistics
+print(grouped_financial_desc)
+print(grouped_esg_desc)
 ```
+
+Then, you calculate the descriptive statistics
+
+```{r}
+use_python("/opt/anaconda3/bin/python3")
+
+# Run Python code to retrieve financial data using yfinance and preprocess ESG data
+py_run_string("
+import yfinance as yf
+import pandas as pd
+
+# Define the list of company symbols
+companies = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'FB']  # Example companies
+
+# Create an empty DataFrame to store financial data
+financial_data = pd.DataFrame()
+
+for symbol in companies:
+    ticker = yf.Ticker(symbol)
+    financial_info = ticker.history(period='1y')[['Close']]
+    financial_info['Symbol'] = symbol
+    financial_data = pd.concat([financial_data, financial_info])
+
+# Reset index for better handling
+financial_data.reset_index(inplace=True)
+financial_data.set_index(['Date', 'Symbol'], inplace=True)
+financial_data.to_csv('financial_data.csv')
+
+# Load ESG data
+esg_data = pd.read_csv('esg_proj_data.csv')
+esg_data.dropna(inplace=True)
+esg_data.to_csv('cleaned_esg_data.csv', index=False)
+")
+
+# Read the data back into R
+financial_data <- read.csv("financial_data.csv")
+esg_data <- read.csv("cleaned_esg_data.csv")
+
+# Ungrouped descriptive statistics
+financial_desc <- summary(financial_data)
+esg_desc <- summary(esg_data)
+
+# Print ungrouped descriptive statistics
+print("Ungrouped Descriptive Statistics for Financial Data:")
+print(financial_desc)
+print("Ungrouped Descriptive Statistics for ESG Data:")
+print(esg_desc)
+
+# Grouped descriptive statistics
+grouped_financial_desc <- financial_data %>%
+  group_by(Symbol) %>%
+  summarize(across(where(is.numeric), list(mean = mean, sd = sd)), .groups = 'drop')
+
+grouped_esg_desc <- esg_data %>%
+  group_by(Comapny.Name) %>%
+  summarize(across(where(is.numeric), list(mean = mean, sd = sd)), .groups = 'drop')
+
+# Print grouped descriptive statistics
+print("Grouped Descriptive Statistics for Financial Data:")
+print(grouped_financial_desc)
+print("Grouped Descriptive Statistics for ESG Data:")
+print(grouped_esg_desc)
+
+```
+
+Then you create the distribution plots
+
+```{r}
+py_run_string("
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load data
+financial_data = pd.read_csv('financial_data.csv')
+esg_data = pd.read_csv('cleaned_esg_data.csv')
+
+# Distribution plot for financial data
+plt.figure(figsize=(10, 6))
+sns.histplot(financial_data['Close'], kde=True)
+plt.title('Distribution of Closing Prices')
+plt.xlabel('Close')
+plt.ylabel('Frequency')
+plt.show()
+
+# Distribution plot for ESG data
+plt.figure(figsize=(10, 6))
+esg_columns = esg_data.columns[1:]  # Assuming first column is company name
+for col in esg_columns:
+    sns.histplot(esg_data[col], kde=True, label=col, element='step')
+plt.title('Distribution of ESG Metrics')
+plt.xlabel('Score')
+plt.ylabel('Frequency')
+plt.legend()
+plt.show()
+")
+```
+
+Then the correlation heat maps
+
+```{r}
+# Install and load necessary packages
+library(reticulate)
+
+# Set the Python path
+use_python("/opt/anaconda3/bin/python3")
+# Run Python code to create correlation heatmaps
+py_run_string("
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Load data
+financial_data = pd.read_csv('financial_data.csv')
+esg_data = pd.read_csv('cleaned_esg_data.csv')
+
+# Remove non-numeric columns for correlation calculation
+financial_data_numeric = financial_data.select_dtypes(include=['float64', 'int64'])
+
+# Correlation heatmap for financial data
+plt.figure(figsize=(10, 8))
+financial_corr = financial_data_numeric.corr()
+sns.heatmap(financial_corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+plt.title('Correlation Heatmap for Financial Data')
+plt.show()
+
+# Correlation heatmap for ESG data
+plt.figure(figsize=(10, 8))
+esg_corr = esg_data.iloc[:, 1:].corr()  # Assuming first column is company name
+sns.heatmap(esg_corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+plt.title('Correlation Heatmap for ESG Data')
+plt.show()
+")
+
+```
+
+
+# Exploratory Data Analysis
+
+## Question 1
+
+What are the mean and standard deviation of the closing prices for each company over the last year?
+
+```{r}
+library(reticulate)
+
+use_python("/opt/anaconda3/bin/python3")
+
+py_run_string("
+import pandas as pd
+
+financial_data = pd.read_csv('financial_data.csv')
+
+mean_std = financial_data.groupby('Symbol')['Close'].agg(['mean', 'std'])
+print(mean_std)
+")
+
+```
+
+## Question 2
+
+What is the distribution of closing prices for each company?
+
+```{r}
+library(reticulate)
+
+use_python("/opt/anaconda3/bin/python3")
+
+py_run_string("
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+financial_data = pd.read_csv('financial_data.csv')
+
+plt.figure(figsize=(14, 7))
+sns.histplot(data=financial_data, x='Close', hue='Symbol', multiple='stack', kde=True)
+plt.title('Distribution of Closing Prices for Each Company')
+plt.xlabel('Close')
+plt.ylabel('Frequency')
+plt.show()
+")
+```
+
+## Question 3
+
+Are there any significant correlations between the closing prices of different companies?
 
 
 ```{r}
-skim(mpg) %>% 
-  select(-n_missing)
+library(reticulate)
+
+use_python("/opt/anaconda3/bin/python3")
+
+py_run_string("
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+financial_data = pd.read_csv('financial_data.csv')
+
+financial_data_numeric = financial_data.pivot_table(index='Date', columns='Symbol', values='Close')
+
+financial_corr = financial_data_numeric.corr()
+print(financial_corr)
+
+plt.figure(figsize=(10, 8))
+sns.heatmap(financial_corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+plt.title('Correlation Heatmap for Closing Prices')
+plt.show()
+")
 ```
 
+##Question 4
 
-## MPG and a Type of Cars
-The following boxplot shows how the distribution of highway MPG (`hwy`) varies by a type of cars (`class`) :blue_car: :truck: :minibus:.
+How do the distributions of the Environmental, Social, and Governance scores compare?
 
 
 ```{r}
-ggplot(data = mpg) +
-  geom_boxplot(aes(x = class, y = hwy, fill = class),
-               show.legend = F) +
-  labs(x = "Class", y = "Highway\nMPG") 
+library(reticulate)
+
+use_python("/opt/anaconda3/bin/python3")
+
+py_run_string("
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+esg_data = pd.read_csv('cleaned_esg_data.csv')
+
+plt.figure(figsize=(14, 7))
+for col in esg_data.columns[1:]:
+    sns.kdeplot(esg_data[col], label=col, fill=True)
+plt.title('Distribution of ESG Scores')
+plt.xlabel('Score')
+plt.ylabel('Density')
+plt.legend()
+plt.show()
+")
 ```
+
+
+# Signifigance of the Project
+
+Publishing a data analysis project on a publicly accessible platform like GitHub, focused on "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis," promotes transparency, enhances credibility, and contributes to the body of knowledge. It supports informed decision-making by providing a holistic view of company performance, raising awareness about ESG's impact on financial performance, and encouraging the adoption of best practices. Hosting on GitHub leverages its features for version control and collaboration, facilitating peer review and ongoing improvements. By making your work available, you establish yourself as a knowledgeable entity, attract attention from potential employers and collaborators, and provide an educational resource for students and professionals.
+
+# References
+
+Collaboraters:
+- Owen Ellick
+- Jake Starkey
+
+ChatGPT helped guide my codes
+
+yahoo finance: https://finance.yahoo.com/
+
 
 

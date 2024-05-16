@@ -1,0 +1,611 @@
+Comapny Name,Total ESG Risk Score,Environmental Risk Score,Social Risk Score,Governance Risk Score,Controversy Level
+"Agilent Technologies, Inc. (A)",14.0,1.1,6.4,6.1,2.0
+Alcoa Corporation (AA),24.0,13.8,5.9,4.3,3.0
+American Airlines Group Inc. (AAL),26.0,9.9,11.6,4.8,2.0
+"Advance Auto Parts, Inc. (AAP)",12.0,0.1,8.3,3.1,2.0
+Apple Inc. (AAPL),17.0,0.5,7.4,9.4,3.0
+AbbVie Inc. (ABBV),30.0,2.4,17.2,10.4,3.0
+Abbott Laboratories (ABT),25.0,2.3,14.2,8.3,3.0
+Arch Capital Group Ltd. (ACGL),22.0,1.5,10.1,10.9,2.0
+AECOM (ACM),29.0,11.1,12.2,6.2,2.0
+Accenture plc (ACN),10.0,0.8,4.6,4.4,2.0
+Adobe Inc. (ADBE),13.0,1.9,6.0,5.2,2.0
+"Analog Devices, Inc. (ADI)",23.0,9.3,6.7,7.0,1.0
+Archer-Daniels-Midland Company (ADM),32.0,16.6,10.1,5.0,3.0
+"Automatic Data Processing, Inc. (ADP)",14.0,2.8,5.5,5.5,1.0
+"Autodesk, Inc. (ADSK)",17.0,3.7,8.2,4.9,0.0
+Ameren Corporation (AEE),27.0,12.9,9.1,5.3,2.0
+Agnico Eagle Mines Limited (AEM),21.0,8.8,7.4,5.2,2.0
+"American Electric Power Company, Inc. (AEP)",26.0,12.7,8.1,5.4,2.0
+AerCap Holdings N.V. (AER),20.0,5.3,8.2,6.6,0.0
+The AES Corporation (AES),27.0,13.3,8.2,5.3,2.0
+"American Financial Group, Inc. (AFG)",28.0,2.5,12.3,13.1,1.0
+Aflac Incorporated (AFL),18.0,0.3,9.1,8.9,1.0
+AGNC Investment Corp. (AGNC),16.0,7.0,3.3,5.8,0.0
+"American International Group, Inc. (AIG)",24.0,1.6,9.7,12.9,2.0
+"Assurant, Inc. (AIZ)",24.0,1.6,10.8,11.7,2.0
+Arthur J. Gallagher & Co. (AJG),21.0,0.1,10.9,10.1,2.0
+"Akamai Technologies, Inc. (AKAM)",17.0,3.0,7.1,6.9,1.0
+Albemarle Corporation (ALB),27.0,15.4,4.8,6.3,2.0
+Alkermes plc (ALKS),25.0,1.4,15.6,7.5,1.0
+The Allstate Corporation (ALL),22.0,1.0,10.1,10.9,2.0
+Allegion plc (ALLE),22.0,10.9,5.8,5.0,0.0
+Ally Financial Inc. (ALLY),23.0,0.1,11.8,11.0,2.0
+"Autoliv, Inc. (ALV)",17.0,4.9,5.1,7.1,3.0
+"Applied Materials, Inc. (AMAT)",13.0,4.5,3.0,5.3,1.0
+"AMETEK, Inc. (AME)",24.0,8.6,8.5,6.7,1.0
+"Affiliated Managers Group, Inc. (AMG)",22.0,2.1,7.9,11.5,1.0
+Amgen Inc. (AMGN),22.0,0.7,13.5,7.8,3.0
+"Ameriprise Financial, Inc. (AMP)",20.0,2.1,7.8,10.3,2.0
+American Tower Corporation (AMT),11.0,2.9,2.8,5.2,1.0
+"Amazon.com, Inc. (AMZN)",31.0,6.0,15.4,9.2,3.0
+"Arista Networks, Inc. (ANET)",17.0,0.4,8.9,7.4,1.0
+"ANSYS, Inc. (ANSS)",16.0,3.5,7.3,5.1,0.0
+A. O. Smith Corporation (AOS),25.0,7.2,11.9,6.4,1.0
+APA Corporation (APA),39.0,22.0,8.9,8.0,2.0
+"Air Products and Chemicals, Inc. (APD)",12.0,7.4,1.5,3.3,1.0
+Amphenol Corporation (APH),20.0,7.3,4.6,7.6,2.0
+Aptiv PLC (APTV),11.0,1.5,3.9,5.3,1.0
+"Alexandria Real Estate Equities, Inc. (ARE)",14.0,3.9,3.7,6.3,0.0
+Aramark (ARMK),24.0,8.1,10.9,4.8,2.0
+"Arrow Electronics, Inc. (ARW)",9.0,2.5,3.0,4.0,0.0
+Ashland Inc. (ASH),32.0,19.0,7.2,6.2,2.0
+Atmos Energy Corporation (ATO),35.0,14.8,13.4,6.4,2.0
+"AvalonBay Communities, Inc. (AVB)",10.0,3.0,2.0,4.8,1.0
+Broadcom Inc. (AVGO),20.0,7.3,6.0,6.6,3.0
+"Avnet, Inc. (AVT)",8.0,2.1,2.7,3.4,2.0
+Avery Dennison Corporation (AVY),16.0,11.4,0.9,3.7,1.0
+"American Water Works Company, Inc. (AWK)",22.0,9.0,7.6,5.0,1.0
+American Express Company (AXP),19.0,0.1,8.9,9.7,2.0
+AXIS Capital Holdings Limited (AXS),24.0,1.7,10.5,11.8,2.0
+Axalta Coating Systems Ltd. (AXTA),27.0,14.9,7.4,4.8,0.0
+"Acuity Brands, Inc. (AYI)",19.0,5.2,9.2,5.0,2.0
+"AutoZone, Inc. (AZO)",11.0,0.1,7.1,3.8,2.0
+The Boeing Company (BA),40.0,8.8,22.5,8.3,4.0
+Bank of America Corporation (BAC),28.0,1.7,15.1,11.5,3.0
+Booz Allen Hamilton Holding Corporation (BAH),17.0,1.3,9.1,6.6,2.0
+Ball Corporation (BALL),12.0,7.6,0.8,3.7,2.0
+Brookfield Asset Management Ltd. (BAM),18.0,0.4,8.6,9.0,1.0
+Credicorp Ltd. (BAP),22.0,2.0,10.1,10.0,2.0
+Baxter International Inc. (BAX),24.0,2.8,13.6,7.1,3.0
+"Bath & Body Works, Inc. (BBWI)",28.0,12.2,10.3,5.9,2.0
+"Best Buy Co., Inc. (BBY)",16.0,2.4,9.1,4.4,2.0
+BCE Inc. (BCE),19.0,3.4,10.2,5.2,2.0
+"Becton, Dickinson and Company (BDX)",24.0,3.0,13.6,7.1,3.0
+"Franklin Resources, Inc. (BEN)",18.0,1.1,9.9,7.3,2.0
+Brookfield Renewable Partners L.P. (BEP),18.0,2.5,9.5,5.8,1.0
+Bunge Global SA (BG),33.0,14.4,13.3,5.3,3.0
+Bausch Health Companies Inc. (BHC),31.0,5.3,17.9,8.1,3.0
+"Baidu, Inc. (BIDU)",24.0,2.5,12.6,9.1,3.0
+Biogen Inc. (BIIB),22.0,0.4,14.5,7.4,3.0
+"Bio-Rad Laboratories, Inc. (BIO)",17.0,1.2,9.2,7.0,1.0
+The Bank of New York Mellon Corporation (BK),21.0,1.1,9.9,9.9,2.0
+Booking Holdings Inc. (BKNG),19.0,1.0,10.1,8.1,3.0
+"BlackRock, Inc. (BLK)",18.0,0.9,7.4,10.0,2.0
+Bank of Montreal (BMO),15.0,1.9,5.7,7.6,2.0
+BioMarin Pharmaceutical Inc. (BMRN),26.0,1.2,17.2,7.3,1.0
+Bristol-Myers Squibb Company (BMY),23.0,1.3,14.4,7.1,2.0
+Brookfield Corporation (BN),20.0,0.8,8.9,10.1,1.0
+The Bank of Nova Scotia (BNS),20.0,1.6,9.7,8.9,3.0
+BOK Financial Corporation (BOKF),21.0,2.3,7.6,11.3,1.0
+"Broadridge Financial Solutions, Inc. (BR)",17.0,4.2,7.5,4.9,2.0
+"Brown & Brown, Inc. (BRO)",20.0,0.1,9.8,10.6,1.0
+Brixmor Property Group Inc. (BRX),11.0,3.8,2.9,4.6,0.0
+Boston Scientific Corporation (BSX),23.0,2.4,11.9,8.9,2.0
+BorgWarner Inc. (BWA),13.0,2.7,4.2,5.7,2.0
+Blackstone Inc. (BX),23.0,2.5,9.6,11.3,2.0
+"Boston Properties, Inc. (BXP)",13.0,2.5,4.5,5.4,1.0
+Citigroup Inc. (C),29.0,1.8,13.8,13.7,4.0
+"Conagra Brands, Inc. (CAG)",31.0,10.7,15.4,4.7,2.0
+"Cardinal Health, Inc. (CAH)",15.0,1.2,7.3,6.4,3.0
+Caterpillar Inc. (CAT),36.0,10.4,17.7,8.1,4.0
+Chubb Limited (CB),24.0,1.5,11.5,10.6,2.0
+"Cboe Global Markets, Inc. (CBOE)",21.0,2.7,7.6,10.6,1.0
+"CBRE Group, Inc. (CBRE)",8.0,1.5,1.9,4.6,1.0
+"Commerce Bancshares, Inc. (CBSH)",24.0,2.0,9.4,12.2,1.0
+Crown Castle Inc. (CCI),10.0,4.1,1.7,4.3,0.0
+"Crown Holdings, Inc. (CCK)",10.0,6.1,0.9,3.5,1.0
+Carnival Corporation & plc (CCL),24.0,9.4,10.1,5.0,3.0
+"Cadence Design Systems, Inc. (CDNS)",12.0,2.3,4.9,4.8,0.0
+CDW Corporation (CDW),9.0,2.5,3.2,3.5,0.0
+Celanese Corporation (CE),26.0,14.7,5.9,5.6,2.0
+"CF Industries Holdings, Inc. (CF)",29.0,16.2,7.7,5.4,1.0
+"Citizens Financial Group, Inc. (CFG)",24.0,2.0,10.1,11.4,2.0
+"Cullen/Frost Bankers, Inc. (CFR)",30.0,2.2,12.8,15.2,1.0
+"Church & Dwight Co., Inc. (CHD)",20.0,6.9,6.3,6.7,1.0
+Chesapeake Energy Corporation (CHK),44.0,23.8,10.9,9.3,2.0
+Check Point Software Technologies Ltd. (CHKP),23.0,5.1,12.2,5.8,1.0
+"C.H. Robinson Worldwide, Inc. (CHRW)",19.0,4.7,9.3,5.3,1.0
+"Charter Communications, Inc. (CHTR)",25.0,6.1,10.7,7.9,2.0
+The Cigna Group (CI),12.0,0.0,6.0,5.7,2.0
+Cincinnati Financial Corporation (CINF),26.0,1.8,11.0,12.9,1.0
+Colgate-Palmolive Company (CL),26.0,8.3,11.3,6.5,2.0
+The Clorox Company (CLX),22.0,7.7,8.6,5.3,2.0
+Canadian Imperial Bank of Commerce (CM),18.0,1.9,7.8,8.0,2.0
+Comerica Incorporated (CMA),25.0,2.5,11.0,11.7,2.0
+Comcast Corporation (CMCSA),23.0,4.0,10.9,8.2,2.0
+CME Group Inc. (CME),18.0,2.1,6.5,9.2,1.0
+"Chipotle Mexican Grill, Inc. (CMG)",21.0,6.8,9.6,4.3,2.0
+Cummins Inc. (CMI),19.0,5.6,7.7,5.9,2.0
+CMS Energy Corporation (CMS),22.0,9.6,6.8,5.2,2.0
+CNA Financial Corporation (CNA),29.0,2.1,12.3,14.5,1.0
+Centene Corporation (CNC),20.0,0.1,13.3,6.5,2.0
+CNH Industrial N.V. (CNHI),17.0,5.2,4.9,7.0,3.0
+Canadian National Railway Company (CNI),14.0,4.9,6.7,2.4,2.0
+"CenterPoint Energy, Inc. (CNP)",29.0,12.9,10.7,5.1,2.0
+Canadian Natural Resources Limited (CNQ),30.0,15.6,7.1,7.1,1.0
+Capital One Financial Corporation (COF),23.0,0.1,12.3,10.1,3.0
+"The Cooper Companies, Inc. (COO)",17.0,2.7,8.8,6.0,2.0
+ConocoPhillips (COP),34.0,17.6,8.1,8.3,2.0
+"Cencora, Inc. (COR)",13.0,1.6,5.5,5.7,3.0
+Costco Wholesale Corporation (COST),23.0,6.5,11.2,5.6,3.0
+Coty Inc. (COTY),27.0,10.9,8.6,7.1,2.0
+Canadian Pacific Kansas City Limited (CP),17.0,6.2,8.2,2.8,2.0
+Campbell Soup Company (CPB),24.0,10.9,8.1,4.5,2.0
+Veren Inc. (CPG),42.0,27.3,7.9,7.2,0.0
+Capri Holdings Limited (CPRI),17.0,1.4,9.2,6.1,2.0
+"Copart, Inc. (CPRT)",16.0,1.5,9.0,5.6,1.0
+Camden Property Trust (CPT),16.0,4.0,3.9,8.2,1.0
+"Salesforce, Inc. (CRM)",15.0,2.0,7.5,5.4,1.0
+"Cisco Systems, Inc. (CSCO)",14.0,0.4,6.9,6.5,2.0
+"CoStar Group, Inc. (CSGP)",22.0,4.9,9.3,7.7,1.0
+Carlisle Companies Incorporated (CSL),23.0,11.0,5.9,5.8,1.0
+CSX Corporation (CSX),22.0,7.0,10.0,4.8,2.0
+Cintas Corporation (CTAS),18.0,3.0,9.2,5.9,2.0
+Coterra Energy Inc. (CTRA),36.0,20.3,8.3,7.5,2.0
+Cognizant Technology Solutions Corporation (CTSH),15.0,1.1,7.6,5.9,2.0
+Cenovus Energy Inc. (CVE),39.0,21.6,9.6,8.1,2.0
+CVS Health Corporation (CVS),22.0,0.0,15.8,6.2,3.0
+Chevron Corporation (CVX),37.0,17.0,9.2,10.4,3.0
+"Dominion Energy, Inc. (D)",26.0,11.9,8.8,5.6,2.0
+"Delta Air Lines, Inc. (DAL)",30.0,9.9,14.6,5.8,2.0
+Deutsche Bank Aktiengesellschaft (DB),28.0,1.1,11.6,15.3,4.0
+"Donaldson Company, Inc. (DCI)",31.0,10.8,12.8,7.4,1.0
+"DuPont de Nemours, Inc. (DD)",29.0,14.7,8.0,5.9,3.0
+Deere & Company (DE),20.0,2.7,10.8,6.5,2.0
+"Douglas Emmett, Inc. (DEI)",18.0,5.3,5.3,7.6,0.0
+Dell Technologies Inc. (DELL),17.0,0.7,8.4,7.5,3.0
+Discover Financial Services (DFS),23.0,0.1,11.9,10.5,2.0
+Dollar General Corporation (DG),18.0,3.5,8.6,5.5,2.0
+Quest Diagnostics Incorporated (DGX),21.0,0.1,13.1,8.0,3.0
+"D.R. Horton, Inc. (DHI)",21.0,8.7,6.7,5.7,2.0
+Danaher Corporation (DHR),12.0,1.4,5.2,5.3,2.0
+The Walt Disney Company (DIS),16.0,0.0,9.0,6.7,2.0
+"DICK'S Sporting Goods, Inc. (DKS)",17.0,3.7,8.1,5.5,2.0
+"Digital Realty Trust, Inc. (DLR)",13.0,2.8,2.8,7.0,0.0
+"Dollar Tree, Inc. (DLTR)",20.0,3.3,12.8,4.0,2.0
+Dover Corporation (DOV),26.0,8.0,12.5,5.4,1.0
+Amdocs Limited (DOX),13.0,1.2,6.0,5.3,1.0
+"Domino's Pizza, Inc. (DPZ)",29.0,10.6,12.2,6.3,2.0
+"Darden Restaurants, Inc. (DRI)",27.0,7.9,15.0,4.6,2.0
+DTE Energy Company (DTE),30.0,15.0,10.0,4.7,2.0
+Duke Energy Corporation (DUK),27.0,11.5,10.7,4.8,2.0
+DaVita Inc. (DVA),23.0,0.1,14.1,8.4,2.0
+Devon Energy Corporation (DVN),34.0,17.7,8.6,7.5,2.0
+DXC Technology Company (DXC),15.0,1.3,8.8,5.3,2.0
+"DexCom, Inc. (DXCM)",24.0,5.3,10.6,8.1,1.0
+Electronic Arts Inc. (EA),13.0,0.1,8.4,4.7,2.0
+eBay Inc. (EBAY),18.0,2.7,7.7,7.2,2.0
+Ecolab Inc. (ECL),20.0,8.5,6.1,5.3,2.0
+"Consolidated Edison, Inc. (ED)",24.0,6.9,10.9,6.1,3.0
+New Oriental Education & Technology Group Inc. (EDU),16.0,0.2,9.4,6.1,2.0
+Equifax Inc. (EFX),23.0,0.1,16.3,6.8,3.0
+"Everest Group, Ltd. (EG)",18.0,1.4,6.7,9.9,1.0
+Edison International (EIX),28.0,11.0,11.4,5.1,3.0
+The Estée Lauder Companies Inc. (EL),25.0,6.9,11.1,7.5,2.0
+"Elevance Health, Inc. (ELV)",11.0,0.1,6.0,5.3,2.0
+Eastman Chemical Company (EMN),25.0,12.8,5.8,6.6,2.0
+Emerson Electric Co. (EMR),28.0,8.8,13.1,6.6,1.0
+Enbridge Inc. (ENB),21.0,10.1,8.0,3.0,3.0
+"EOG Resources, Inc. (EOG)",34.0,20.2,6.7,7.3,1.0
+"Equinix, Inc. (EQIX)",14.0,3.4,5.3,5.1,1.0
+Equity Residential (EQR),12.0,3.0,2.9,6.1,1.0
+EQT Corporation (EQT),36.0,17.7,10.1,7.9,1.0
+Erie Indemnity Company (ERIE),28.0,2.6,11.4,13.5,1.0
+Eversource Energy (ES),19.0,4.7,8.6,5.4,2.0
+"Essex Property Trust, Inc. (ESS)",12.0,3.5,2.8,6.1,1.0
+Eaton Corporation plc (ETN),18.0,5.5,6.8,5.7,1.0
+Entergy Corporation (ETR),27.0,14.0,7.3,5.3,2.0
+Edwards Lifesciences Corporation (EW),19.0,2.9,8.1,7.6,1.0
+"East West Bancorp, Inc. (EWBC)",27.0,1.6,12.3,13.4,1.0
+Exelon Corporation (EXC),23.0,7.4,9.1,6.4,3.0
+Eagle Materials Inc. (EXP),40.0,22.3,9.2,9.0,1.0
+"Expeditors International of Washington, Inc. (EXPD)",17.0,4.2,7.6,4.8,2.0
+"Expedia Group, Inc. (EXPE)",28.0,4.3,13.3,10.1,2.0
+Extra Space Storage Inc. (EXR),15.0,4.2,3.7,7.3,1.0
+Ford Motor Company (F),22.0,7.4,6.4,8.5,3.0
+Fastenal Company (FAST),25.0,9.3,8.3,7.1,2.0
+"Fortune Brands Innovations, Inc. (FBIN)",24.0,10.6,6.1,7.5,1.0
+Freeport-McMoRan Inc. (FCX),32.0,15.3,10.0,6.4,4.0
+FactSet Research Systems Inc. (FDS),18.0,4.3,8.8,5.3,1.0
+FedEx Corporation (FDX),20.0,5.7,8.4,5.6,2.0
+FirstEnergy Corp. (FE),26.0,10.8,9.0,5.8,3.0
+"F5, Inc. (FFIV)",17.0,4.1,7.6,5.4,1.0
+"Fiserv, Inc. (FI)",20.0,4.1,8.7,6.8,2.0
+"Fidelity National Information Services, Inc. (FIS)",17.0,4.1,8.2,5.2,1.0
+Fifth Third Bancorp (FITB),17.0,1.2,8.1,7.5,2.0
+Flowserve Corporation (FLS),23.0,7.9,10.5,4.8,2.0
+FMC Corporation (FMC),31.0,14.4,8.9,7.5,1.0
+"Fidelity National Financial, Inc. (FNF)",24.0,1.5,9.8,12.9,1.0
+Franco-Nevada Corporation (FNV),8.0,0.1,2.6,5.5,2.0
+Federal Realty Investment Trust (FRT),12.0,2.3,4.3,5.8,1.0
+"Fortinet, Inc. (FTNT)",19.0,2.5,10.0,6.4,1.0
+Fortis Inc. (FTS),28.0,14.4,8.4,5.1,1.0
+Fortive Corporation (FTV),35.0,16.1,14.0,4.7,1.0
+General Dynamics Corporation (GD),35.0,9.4,18.9,6.9,3.0
+General Electric Company (GE),41.0,14.2,15.4,10.9,3.0
+Gen Digital Inc. (GEN),17.0,3.3,8.2,5.4,2.0
+Graco Inc. (GGG),30.0,8.9,13.5,7.6,0.0
+CGI Inc. (GIB),15.0,1.2,7.8,6.3,0.0
+Gildan Activewear Inc. (GIL),10.0,1.2,4.6,3.9,2.0
+"Gilead Sciences, Inc. (GILD)",23.0,1.0,14.3,7.6,2.0
+"General Mills, Inc. (GIS)",21.0,8.3,8.7,4.1,2.0
+Globe Life Inc. (GL),20.0,1.6,8.3,10.5,2.0
+"Gaming and Leisure Properties, Inc. (GLPI)",16.0,6.3,4.1,5.3,1.0
+Corning Incorporated (GLW),16.0,5.5,4.8,6.1,2.0
+General Motors Company (GM),29.0,9.8,11.5,7.2,4.0
+Gentex Corporation (GNTX),19.0,5.5,5.5,7.5,1.0
+Barrick Gold Corporation (GOLD),33.0,15.9,11.9,5.5,4.0
+Alphabet Inc. (GOOGL),24.0,1.6,11.2,11.5,4.0
+Genuine Parts Company (GPC),14.0,4.7,5.2,3.8,2.0
+Global Payments Inc. (GPN),21.0,3.7,10.7,6.5,1.0
+"The Gap, Inc. (GPS)",16.0,1.2,9.1,5.3,3.0
+Garmin Ltd. (GRMN),21.0,4.8,11.6,4.3,1.0
+"The Goldman Sachs Group, Inc. (GS)",25.0,0.9,12.8,11.8,2.0
+"W.W. Grainger, Inc. (GWW)",16.0,4.5,5.6,5.9,2.0
+Hyatt Hotels Corporation (H),30.0,13.2,11.6,5.1,2.0
+Halliburton Company (HAL),26.0,9.8,8.9,6.9,2.0
+"Hasbro, Inc. (HAS)",7.0,0.0,2.9,4.2,2.0
+Huntington Bancshares Incorporated (HBAN),22.0,2.0,11.2,8.7,2.0
+Hanesbrands Inc. (HBI),14.0,1.3,7.6,5.3,2.0
+"HCA Healthcare, Inc. (HCA)",29.0,3.9,17.7,7.2,3.0
+"The Home Depot, Inc. (HD)",13.0,3.3,5.6,3.8,2.0
+Hess Corporation (HES),33.0,18.9,7.2,7.0,2.0
+"The Hartford Financial Services Group, Inc. (HIG)",17.0,1.8,7.2,7.6,1.0
+Herbalife Ltd. (HLF),31.0,11.4,11.1,8.1,2.0
+Hilton Worldwide Holdings Inc. (HLT),18.0,6.1,7.0,4.4,2.0
+"Harley-Davidson, Inc. (HOG)",15.0,2.9,6.0,6.1,2.0
+"Hologic, Inc. (HOLX)",25.0,4.6,12.1,8.4,1.0
+Honeywell International Inc. (HON),29.0,11.0,10.6,7.0,3.0
+Hewlett Packard Enterprise Company (HPE),11.0,0.9,4.1,5.6,2.0
+HP Inc. (HPQ),11.0,0.1,5.1,6.1,2.0
+Hormel Foods Corporation (HRL),30.0,13.3,10.7,6.0,3.0
+"Henry Schein, Inc. (HSIC)",14.0,2.0,5.7,6.3,2.0
+"Host Hotels & Resorts, Inc. (HST)",13.0,3.3,4.6,5.5,1.0
+The Hershey Company (HSY),26.0,10.5,10.4,5.1,3.0
+Hubbell Incorporated (HUBB),20.0,5.6,9.1,4.9,0.0
+Humana Inc. (HUM),22.0,0.0,16.7,5.7,2.0
+Huntsman Corporation (HUN),27.0,12.8,5.9,8.4,1.0
+IAC Inc. (IAC),27.0,2.8,15.1,4.7,2.0
+International Business Machines Corporation (IBM),14.0,1.8,6.2,6.1,2.0
+"Intercontinental Exchange, Inc. (ICE)",20.0,1.7,9.3,8.8,1.0
+ICL Group Ltd (ICL),30.0,15.6,8.0,6.9,2.0
+"IDEXX Laboratories, Inc. (IDXX)",19.0,2.6,7.1,8.9,1.0
+IDEX Corporation (IEX),29.0,10.3,13.7,5.3,0.0
+International Flavors & Fragrances Inc. (IFF),23.0,10.5,5.6,6.6,3.0
+"Illumina, Inc. (ILMN)",19.0,0.1,11.6,6.9,3.0
+Imperial Oil Limited (IMO),37.0,22.6,7.1,7.5,3.0
+Incyte Corporation (INCY),25.0,1.1,16.3,7.4,1.0
+Ingredion Incorporated (INGR),29.0,13.5,10.1,5.0,2.0
+Intel Corporation (INTC),19.0,4.9,7.3,6.6,3.0
+Intuit Inc. (INTU),16.0,1.0,10.7,4.7,2.0
+"Ionis Pharmaceuticals, Inc. (IONS)",29.0,2.0,18.8,8.5,1.0
+IQVIA Holdings Inc. (IQV),19.0,1.3,10.6,7.2,2.0
+Iron Mountain Incorporated (IRM),15.0,5.0,3.7,5.8,2.0
+"Intuitive Surgical, Inc. (ISRG)",21.0,3.7,9.6,7.8,1.0
+"Gartner, Inc. (IT)",19.0,0.1,13.2,5.6,1.0
+Illinois Tool Works Inc. (ITW),25.0,7.0,11.8,6.5,2.0
+Invesco Ltd. (IVZ),23.0,0.7,11.0,11.0,2.0
+Jacobs Solutions Inc. (J),22.0,5.3,11.5,5.6,3.0
+"J.B. Hunt Transport Services, Inc. (JBHT)",15.0,3.3,6.6,5.0,1.0
+Johnson Controls International plc (JCI),14.0,4.5,4.6,5.4,3.0
+Jefferies Financial Group Inc. (JEF),26.0,2.6,9.4,13.9,2.0
+"Jack Henry & Associates, Inc. (JKHY)",19.0,4.3,8.7,5.7,0.0
+Jones Lang LaSalle Incorporated (JLL),7.0,1.5,2.1,3.1,1.0
+Johnson & Johnson (JNJ),24.0,0.9,15.0,8.0,4.0
+"Juniper Networks, Inc. (JNPR)",15.0,1.8,7.2,5.8,1.0
+JPMorgan Chase & Co. (JPM),29.0,1.1,16.5,11.7,3.0
+"Nordstrom, Inc. (JWN)",20.0,3.7,12.8,3.9,2.0
+Kellanova (K),28.0,10.6,13.4,4.4,2.0
+KeyCorp (KEY),21.0,1.6,9.2,10.7,1.0
+"Keysight Technologies, Inc. (KEYS)",8.0,1.2,1.8,4.7,1.0
+The Kraft Heinz Company (KHC),34.0,13.5,14.1,6.2,3.0
+Kimco Realty Corporation (KIM),11.0,2.3,2.6,6.0,0.0
+KLA Corporation (KLAC),17.0,7.4,5.1,4.6,0.0
+Kimberly-Clark Corporation (KMB),28.0,10.4,10.4,7.6,2.0
+"Kinder Morgan, Inc. (KMI)",19.0,8.3,7.2,3.5,2.0
+"CarMax, Inc. (KMX)",12.0,0.1,8.0,4.0,2.0
+The Coca-Cola Company (KO),22.0,7.2,9.5,4.9,3.0
+The Kroger Co. (KR),21.0,6.6,9.1,5.6,3.0
+Kohl's Corporation (KSS),12.0,2.3,6.2,3.8,2.0
+Loews Corporation (L),16.0,0.6,4.3,11.5,2.0
+"Lazard, Inc. (LAZ)",23.0,1.9,9.6,11.6,2.0
+Liberty Broadband Corporation (LBRDK),22.0,2.1,11.4,8.8,1.0
+Liberty Global Ltd. (LBTYA),23.0,5.6,10.4,7.4,2.0
+"Leidos Holdings, Inc. (LDOS)",18.0,3.4,9.0,5.3,2.0
+Lear Corporation (LEA),12.0,3.4,3.7,5.3,2.0
+"Lincoln Electric Holdings, Inc. (LECO)",22.0,7.6,8.7,5.6,1.0
+"Leggett & Platt, Incorporated (LEG)",15.0,6.5,4.1,3.9,2.0
+Lennar Corporation (LEN),25.0,11.3,8.6,5.6,2.0
+Laboratory Corporation of America Holdings (LH),20.0,0.4,12.7,6.6,2.0
+Lennox International Inc. (LII),20.0,8.1,4.2,7.2,0.0
+LKQ Corporation (LKQ),11.0,3.8,4.0,3.3,2.0
+Eli Lilly and Company (LLY),24.0,2.5,12.6,9.1,2.0
+Lockheed Martin Corporation (LMT),30.0,8.0,15.1,7.1,3.0
+Lincoln National Corporation (LNC),18.0,1.9,6.1,9.9,2.0
+"Cheniere Energy, Inc. (LNG)",23.0,11.3,8.2,3.3,2.0
+Alliant Energy Corporation (LNT),21.0,8.5,6.6,6.3,0.0
+"Lowe's Companies, Inc. (LOW)",12.0,3.3,5.3,3.2,2.0
+Lam Research Corporation (LRCX),14.0,4.5,4.0,5.1,1.0
+Lululemon Athletica Inc. (LULU),17.0,1.6,9.9,5.5,2.0
+"Lumen Technologies, Inc. (LUMN)",26.0,6.7,12.8,6.7,2.0
+Southwest Airlines Co. (LUV),31.0,11.0,13.7,5.9,2.0
+Las Vegas Sands Corp. (LVS),19.0,2.3,7.7,8.7,2.0
+LyondellBasell Industries N.V. (LYB),21.0,13.5,2.1,5.1,2.0
+Mastercard Incorporated (MA),17.0,2.2,6.7,8.3,4.0
+"Mid-America Apartment Communities, Inc. (MAA)",13.0,3.9,3.0,6.3,1.0
+ManpowerGroup Inc. (MAN),10.0,0.0,6.0,3.8,1.0
+"Marriott International, Inc. (MAR)",21.0,8.6,9.2,3.7,3.0
+Masco Corporation (MAS),22.0,9.7,5.6,6.8,1.0
+"Mattel, Inc. (MAT)",15.0,0.8,9.4,5.3,4.0
+McDonald's Corporation (MCD),26.0,7.6,12.6,5.8,3.0
+Microchip Technology Incorporated (MCHP),32.0,15.3,9.2,7.4,1.0
+McKesson Corporation (MCK),15.0,1.6,7.3,6.3,3.0
+Moody's Corporation (MCO),16.0,1.6,6.1,8.1,2.0
+"Mondelez International, Inc. (MDLZ)",22.0,7.2,9.4,5.4,3.0
+Medtronic plc (MDT),23.0,1.8,13.4,7.6,3.0
+"MDU Resources Group, Inc. (MDU)",36.0,21.0,6.6,7.9,1.0
+"MetLife, Inc. (MET)",16.0,0.7,7.0,8.8,2.0
+"Meta Platforms, Inc. (META)",34.0,2.7,21.1,10.3,4.0
+Manulife Financial Corporation (MFC),18.0,0.9,8.8,8.3,2.0
+Magna International Inc. (MGA),19.0,4.6,9.2,4.8,2.0
+MGM Resorts International (MGM),25.0,1.3,13.0,10.5,2.0
+"Mohawk Industries, Inc. (MHK)",14.0,5.8,4.2,4.2,2.0
+The Middleby Corporation (MIDD),30.0,9.3,14.3,6.8,0.0
+"McCormick & Company, Incorporated (MKC)",26.0,9.6,11.1,5.3,2.0
+Markel Group Inc. (MKL),27.0,2.5,10.6,13.8,2.0
+Melco Resorts & Entertainment Limited (MLCO),21.0,3.2,8.2,9.9,2.0
+"Martin Marietta Materials, Inc. (MLM)",30.0,16.7,4.8,8.7,2.0
+"Marsh & McLennan Companies, Inc. (MMC)",21.0,0.1,11.3,9.7,2.0
+3M Company (MMM),37.0,17.2,13.6,6.5,5.0
+Monster Beverage Corporation (MNST),29.0,12.1,12.0,5.1,2.0
+"Altria Group, Inc. (MO)",31.0,6.1,17.6,7.6,3.0
+The Mosaic Company (MOS),34.0,13.9,11.1,8.6,2.0
+Marathon Petroleum Corporation (MPC),30.0,17.1,8.1,5.3,3.0
+"Merck & Co., Inc. (MRK)",21.0,1.9,10.6,8.9,3.0
+"Marvell Technology, Inc. (MRVL)",20.0,6.2,7.5,6.4,2.0
+Morgan Stanley (MS),25.0,1.1,12.9,10.5,2.0
+MSCI Inc. (MSCI),16.0,1.6,7.0,7.7,1.0
+Microsoft Corporation (MSFT),15.0,1.5,7.5,6.1,3.0
+"Motorola Solutions, Inc. (MSI)",13.0,2.3,5.1,5.8,1.0
+"MSC Industrial Direct Co., Inc. (MSM)",17.0,3.7,7.0,6.4,0.0
+M&T Bank Corporation (MTB),27.0,2.6,10.3,13.6,1.0
+Mettler-Toledo International Inc. (MTD),13.0,1.0,7.4,4.7,0.0
+"Micron Technology, Inc. (MU)",18.0,7.2,5.5,5.5,2.0
+Norwegian Cruise Line Holdings Ltd. (NCLH),26.0,9.0,10.9,6.1,2.0
+"Nasdaq, Inc. (NDAQ)",13.0,0.0,5.6,7.4,1.0
+Nordson Corporation (NDSN),25.0,8.2,11.6,5.1,1.0
+"NextEra Energy, Inc. (NEE)",23.0,9.4,8.3,5.6,2.0
+Newmont Corporation (NEM),21.0,7.1,8.2,5.2,3.0
+NewMarket Corporation (NEU),36.0,17.8,9.7,8.6,0.0
+"Netflix, Inc. (NFLX)",16.0,0.1,7.3,9.0,2.0
+NiSource Inc. (NI),26.0,12.0,9.2,4.9,3.0
+"NIKE, Inc. (NKE)",20.0,3.0,10.0,6.7,3.0
+"Annaly Capital Management, Inc. (NLY)",11.0,2.1,2.9,6.2,0.0
+Northrop Grumman Corporation (NOC),28.0,7.8,14.4,5.4,2.0
+NOV Inc. (NOV),32.0,11.7,12.0,8.4,2.0
+"ServiceNow, Inc. (NOW)",17.0,4.0,6.0,6.6,0.0
+"NRG Energy, Inc. (NRG)",32.0,16.8,9.5,5.7,2.0
+Norfolk Southern Corporation (NSC),24.0,8.0,10.5,5.4,3.0
+"NetApp, Inc. (NTAP)",15.0,2.2,7.7,5.5,1.0
+Nutrien Ltd. (NTR),28.0,13.6,8.4,6.5,2.0
+Northern Trust Corporation (NTRS),24.0,1.9,11.8,10.2,2.0
+Nucor Corporation (NUE),33.0,9.3,14.7,8.8,2.0
+NVIDIA Corporation (NVDA),14.0,2.3,4.9,6.3,2.0
+"NVR, Inc. (NVR)",20.0,7.2,7.8,5.2,1.0
+Newell Brands Inc. (NWL),14.0,5.9,4.0,3.7,2.0
+News Corporation (NWSA),11.0,0.0,4.7,6.7,2.0
+NXP Semiconductors N.V. (NXPI),20.0,8.6,5.4,5.8,1.0
+"New York Community Bancorp, Inc. (NYCB)",28.0,2.8,13.4,11.5,3.0
+Realty Income Corporation (O),15.0,4.4,5.3,5.7,2.0
+Owens Corning (OC),19.0,9.2,5.1,4.9,1.0
+OGE Energy Corp. (OGE),32.0,15.7,10.6,5.5,0.0
+"Omega Healthcare Investors, Inc. (OHI)",18.0,7.1,5.2,5.8,1.0
+"ONEOK, Inc. (OKE)",25.0,10.8,11.0,3.3,1.0
+Omnicom Group Inc. (OMC),16.0,0.1,9.3,6.9,1.0
+ON Semiconductor Corporation (ON),22.0,11.8,5.7,4.9,1.0
+Oracle Corporation (ORCL),14.0,0.5,7.8,5.6,2.0
+Old Republic International Corporation (ORI),28.0,2.4,10.8,15.1,1.0
+"O'Reilly Automotive, Inc. (ORLY)",12.0,0.1,8.1,3.8,1.0
+Open Text Corporation (OTEX),18.0,4.8,7.9,4.9,1.0
+Occidental Petroleum Corporation (OXY),42.0,25.0,9.7,7.0,2.0
+"Palo Alto Networks, Inc. (PANW)",14.0,0.7,7.6,5.6,1.0
+Paramount Global (PARA),15.0,0.1,7.5,7.4,3.0
+Paramount Global (PARAA),15.0,0.1,8.1,7.1,3.0
+"Paychex, Inc. (PAYX)",17.0,3.2,7.2,6.4,1.0
+Pembina Pipeline Corporation (PBA),21.0,10.6,6.9,3.3,1.0
+PACCAR Inc (PCAR),28.0,8.4,11.0,8.3,3.0
+PG&E Corporation (PCG),30.0,9.6,15.4,5.4,4.0
+Public Service Enterprise Group Incorporated (PEG),27.0,12.5,9.3,5.5,2.0
+"PepsiCo, Inc. (PEP)",22.0,7.3,9.6,5.2,3.0
+Pfizer Inc. (PFE),25.0,2.1,12.9,9.6,3.0
+"Principal Financial Group, Inc. (PFG)",14.0,0.8,5.8,7.6,1.0
+The Procter & Gamble Company (PG),29.0,9.6,12.2,6.7,3.0
+The Progressive Corporation (PGR),20.0,1.5,8.5,10.1,2.0
+Parker-Hannifin Corporation (PH),29.0,9.5,13.8,6.2,2.0
+"PulteGroup, Inc. (PHM)",21.0,9.2,7.3,4.9,2.0
+Polaris Inc. (PII),12.0,1.3,6.7,4.3,2.0
+Packaging Corporation of America (PKG),19.0,14.0,1.1,3.6,1.0
+"Prologis, Inc. (PLD)",10.0,2.7,2.5,5.0,1.0
+Philip Morris International Inc. (PM),28.0,3.4,13.5,11.5,3.0
+"The PNC Financial Services Group, Inc. (PNC)",26.0,1.9,13.3,10.8,3.0
+Pentair plc (PNR),22.0,6.0,10.0,6.1,1.0
+Pinnacle West Capital Corporation (PNW),31.0,14.7,10.2,5.8,1.0
+"PPG Industries, Inc. (PPG)",25.0,11.0,7.7,6.5,2.0
+PPL Corporation (PPL),31.0,17.1,8.9,5.3,2.0
+Perrigo Company plc (PRGO),36.0,3.4,21.4,11.6,2.0
+"Prudential Financial, Inc. (PRU)",20.0,0.6,10.0,9.3,1.0
+Public Storage (PSA),13.0,4.7,2.6,5.7,1.0
+Phillips 66 (PSX),35.0,20.8,8.8,5.8,3.0
+PTC Inc. (PTC),19.0,4.9,8.6,5.4,0.0
+PVH Corp. (PVH),16.0,1.3,9.7,5.0,3.0
+"Quanta Services, Inc. (PWR)",37.0,12.1,15.7,9.0,2.0
+"PayPal Holdings, Inc. (PYPL)",18.0,2.8,9.2,5.8,2.0
+QUALCOMM Incorporated (QCOM),15.0,5.3,4.5,5.6,3.0
+Qiagen N.V. (QGEN),14.0,1.6,6.0,6.6,2.0
+"Qorvo, Inc. (QRVO)",29.0,12.3,8.5,7.7,0.0
+Restaurant Brands International Inc. (QSR),23.0,7.2,11.3,5.0,3.0
+Ferrari N.V. (RACE),25.0,5.9,12.3,6.6,2.0
+Rogers Communications Inc. (RCI),23.0,4.4,11.8,7.0,3.0
+Royal Caribbean Cruises Ltd. (RCL),21.0,8.1,7.7,4.9,3.0
+Regency Centers Corporation (REG),12.0,3.7,3.2,4.8,0.0
+"Regeneron Pharmaceuticals, Inc. (REGN)",18.0,0.3,11.0,6.7,2.0
+Regions Financial Corporation (RF),17.0,1.8,6.7,8.4,2.0
+"Reinsurance Group of America, Incorporated (RGA)",23.0,2.7,8.1,12.2,0.0
+Robert Half Inc. (RHI),11.0,0.1,7.4,3.4,1.0
+"Raymond James Financial, Inc. (RJF)",27.0,2.3,11.2,13.4,2.0
+Ralph Lauren Corporation (RL),15.0,1.2,7.8,5.6,2.0
+ResMed Inc. (RMD),26.0,3.5,12.4,10.4,1.0
+RenaissanceRe Holdings Ltd. (RNR),23.0,2.5,9.0,11.2,0.0
+"Rockwell Automation, Inc. (ROK)",18.0,5.4,6.6,5.7,2.0
+"Rollins, Inc. (ROL)",19.0,1.8,10.6,6.9,1.0
+"Roper Technologies, Inc. (ROP)",20.0,4.7,9.7,6.1,0.0
+"Ross Stores, Inc. (ROST)",18.0,1.8,10.8,5.7,2.0
+RPM International Inc. (RPM),33.0,16.0,9.2,7.7,1.0
+Range Resources Corporation (RRC),45.0,25.3,9.7,9.9,2.0
+"Reliance, Inc. (RS)",20.0,7.2,7.1,5.4,0.0
+"Republic Services, Inc. (RSG)",21.0,11.2,6.0,3.7,3.0
+"Revvity, Inc. (RVTY)",17.0,0.8,10.1,5.8,2.0
+Royal Bank of Canada (RY),24.0,1.9,13.6,8.9,3.0
+Sabre Corporation (SABR),23.0,1.2,13.9,7.6,2.0
+SBA Communications Corporation (SBAC),12.0,3.1,3.2,5.2,0.0
+Starbucks Corporation (SBUX),25.0,5.8,14.6,4.3,3.0
+Southern Copper Corporation (SCCO),27.0,12.9,8.7,5.9,3.0
+The Charles Schwab Corporation (SCHW),23.0,2.4,8.9,11.9,2.0
+Service Corporation International (SCI),16.0,0.1,10.0,5.7,2.0
+Sealed Air Corporation (SEE),16.0,12.0,1.2,2.9,1.0
+SEI Investments Company (SEIC),19.0,1.0,8.1,9.7,1.0
+The Sherwin-Williams Company (SHW),29.0,14.3,9.2,5.8,2.0
+Sirius XM Holdings Inc. (SIRI),16.0,0.1,8.0,8.1,2.0
+Six Flags Entertainment Corporation (SIX),26.0,12.6,9.2,3.8,2.0
+The J. M. Smucker Company (SJM),30.0,12.9,12.0,5.6,2.0
+Schlumberger Limited (SLB),20.0,8.1,6.3,5.9,1.0
+Sun Life Financial Inc. (SLF),14.0,0.5,7.1,6.3,1.0
+SL Green Realty Corp. (SLG),13.0,2.7,2.9,7.2,1.0
+SLM Corporation (SLM),22.0,0.1,11.7,10.6,0.0
+The Scotts Miracle-Gro Company (SMG),38.0,15.8,11.7,10.3,2.0
+Snap-on Incorporated (SNA),31.0,9.0,13.9,7.6,2.0
+"Synopsys, Inc. (SNPS)",14.0,3.3,6.9,4.2,0.0
+Synovus Financial Corp. (SNV),24.0,2.2,10.2,11.8,2.0
+The Southern Company (SO),33.0,14.7,11.0,7.3,2.0
+Sonoco Products Company (SON),21.0,15.8,2.2,3.4,1.0
+"Simon Property Group, Inc. (SPG)",14.0,3.8,4.0,6.2,1.0
+S&P Global Inc. (SPGI),13.0,0.0,6.2,6.8,1.0
+"Spirit AeroSystems Holdings, Inc. (SPR)",32.0,11.2,11.6,9.4,2.0
+"Block, Inc. (SQ)",20.0,1.1,11.1,7.6,2.0
+"Stericycle, Inc. (SRCL)",27.0,15.1,9.3,2.9,2.0
+Sempra (SRE),24.0,10.9,7.8,4.9,2.0
+"SS&C Technologies Holdings, Inc. (SSNC)",22.0,4.8,11.4,6.0,1.0
+Sensata Technologies Holding plc (ST),11.0,3.7,3.2,4.5,2.0
+"Steel Dynamics, Inc. (STLD)",33.0,10.6,14.4,8.1,1.0
+State Street Corporation (STT),24.0,1.6,12.9,9.5,1.0
+Seagate Technology Holdings plc (STX),11.0,1.6,3.8,5.3,1.0
+"Constellation Brands, Inc. (STZ)",25.0,9.4,10.0,5.2,2.0
+Suncor Energy Inc. (SU),32.0,20.6,6.7,4.8,3.0
+"Stanley Black & Decker, Inc. (SWK)",25.0,5.0,12.5,7.8,2.0
+"Skyworks Solutions, Inc. (SWKS)",28.0,11.8,8.9,7.2,1.0
+Synchrony Financial (SYF),17.0,0.1,9.9,7.3,2.0
+Stryker Corporation (SYK),28.0,4.0,13.2,11.0,2.0
+Sysco Corporation (SYY),16.0,5.4,6.1,4.5,2.0
+AT&T Inc. (T),24.0,3.3,13.9,6.7,3.0
+TAL Education Group (TAL),18.0,0.1,10.6,7.7,2.0
+Molson Coors Beverage Company (TAP),21.0,7.3,8.6,5.5,2.0
+Trip.com Group Limited (TCOM),23.0,2.5,11.0,9.8,2.0
+The Toronto-Dominion Bank (TD),20.0,0.5,9.7,9.5,3.0
+TransDigm Group Incorporated (TDG),39.0,12.0,17.7,9.0,2.0
+Teck Resources Limited (TECK),21.0,10.1,6.7,3.6,3.0
+"Telefónica, S.A. (TEF)",17.0,1.6,9.2,6.6,2.0
+TE Connectivity Ltd. (TEL),15.0,5.8,4.4,4.6,0.0
+"Teradyne, Inc. (TER)",17.0,7.1,4.9,5.0,0.0
+Teleflex Incorporated (TFX),30.0,4.8,16.1,8.7,2.0
+Target Corporation (TGT),14.0,1.9,7.6,4.9,3.0
+"THOR Industries, Inc. (THO)",27.0,5.9,14.9,5.7,0.0
+"The TJX Companies, Inc. (TJX)",14.0,1.9,7.7,4.8,2.0
+Thermo Fisher Scientific Inc. (TMO),13.0,1.4,4.9,6.5,3.0
+"T-Mobile US, Inc. (TMUS)",25.0,4.2,13.4,7.1,3.0
+Travel + Leisure Co. (TNL),25.0,9.5,11.2,4.1,2.0
+"Toll Brothers, Inc. (TOL)",23.0,9.6,7.8,5.1,2.0
+"Tapestry, Inc. (TPR)",15.0,1.1,8.6,5.2,2.0
+Targa Resources Corp. (TRGP),33.0,14.2,14.8,4.2,2.0
+Thomson Reuters Corporation (TRI),15.0,0.0,8.0,6.5,2.0
+"Tripadvisor, Inc. (TRIP)",25.0,1.1,14.9,8.9,2.0
+Trimble Inc. (TRMB),12.0,3.8,3.4,5.2,0.0
+"T. Rowe Price Group, Inc. (TROW)",17.0,2.4,8.9,5.6,1.0
+TC Energy Corporation (TRP),23.0,10.4,10.1,3.0,3.0
+"The Travelers Companies, Inc. (TRV)",20.0,1.0,9.3,10.0,1.0
+Tractor Supply Company (TSCO),16.0,3.4,8.2,4.5,2.0
+"Tesla, Inc. (TSLA)",25.0,3.3,14.1,7.8,3.0
+"Tyson Foods, Inc. (TSN)",36.0,14.0,12.4,9.5,4.0
+Trane Technologies plc (TT),15.0,4.4,5.7,5.1,2.0
+The Toro Company (TTC),21.0,5.4,9.4,6.4,1.0
+TELUS Corporation (TU),17.0,3.4,10.6,3.4,2.0
+Texas Instruments Incorporated (TXN),21.0,7.8,6.0,6.9,2.0
+Textron Inc. (TXT),34.0,10.9,16.1,6.6,2.0
+"Under Armour, Inc. (UAA)",16.0,1.8,8.5,6.0,2.0
+"United Airlines Holdings, Inc. (UAL)",29.0,10.8,12.8,5.0,2.0
+UBS Group AG (UBS),28.0,1.0,12.5,14.7,4.0
+"UDR, Inc. (UDR)",14.0,3.7,3.9,6.3,1.0
+UGI Corporation (UGI),32.0,12.5,13.3,5.8,2.0
+U-Haul Holding Company (UHAL),23.0,6.6,9.2,7.3,1.0
+"Universal Health Services, Inc. (UHS)",33.0,3.7,20.7,8.6,3.0
+"Ulta Beauty, Inc. (ULTA)",16.0,4.1,7.3,4.3,2.0
+UnitedHealth Group Incorporated (UNH),15.0,0.0,9.7,5.6,3.0
+Unum Group (UNM),17.0,0.8,8.9,7.7,1.0
+Union Pacific Corporation (UNP),23.0,7.3,10.6,5.6,2.0
+"United Parcel Service, Inc. (UPS)",19.0,4.2,8.9,5.5,2.0
+"United Rentals, Inc. (URI)",17.0,5.3,6.1,5.4,1.0
+U.S. Bancorp (USB),30.0,1.8,15.5,13.0,3.0
+United Therapeutics Corporation (UTHR),22.0,1.4,13.8,7.1,2.0
+Visa Inc. (V),17.0,1.8,8.2,6.7,3.0
+V.F. Corporation (VFC),14.0,0.8,8.2,5.0,2.0
+Vipshop Holdings Limited (VIPS),24.0,7.3,8.0,8.2,2.0
+Valero Energy Corporation (VLO),33.0,20.1,7.4,5.0,2.0
+Vulcan Materials Company (VMC),29.0,13.4,6.8,9.1,2.0
+Vornado Realty Trust (VNO),14.0,3.1,4.2,7.0,1.0
+"Voya Financial, Inc. (VOYA)",18.4,1.6,7.8,9.0,2.0
+"Verisk Analytics, Inc. (VRSK)",18.0,0.1,12.5,5.0,1.0
+"VeriSign, Inc. (VRSN)",21.0,4.7,10.8,5.8,1.0
+Vertex Pharmaceuticals Incorporated (VRTX),23.0,0.8,15.4,6.6,2.0
+"Ventas, Inc. (VTR)",13.0,3.4,3.9,5.6,0.0
+Verizon Communications Inc. (VZ),19.0,3.7,9.6,5.4,3.0
+Westinghouse Air Brake Technologies Corporation (WAB),23.0,5.4,12.0,6.0,2.0
+Waters Corporation (WAT),15.0,1.4,8.2,5.1,0.0
+"Walgreens Boots Alliance, Inc. (WBA)",16.0,1.8,9.3,5.2,3.0
+"Waste Connections, Inc. (WCN)",22.0,11.0,7.7,3.3,1.0
+"Workday, Inc. (WDAY)",17.0,4.0,6.6,6.6,1.0
+Western Digital Corporation (WDC),11.0,1.5,3.9,6.1,2.0
+"WEC Energy Group, Inc. (WEC)",27.0,13.4,9.0,5.1,1.0
+Welltower Inc. (WELL),13.0,4.2,3.5,5.5,1.0
+Wells Fargo & Company (WFC),36.0,2.0,14.8,19.4,5.0
+Whirlpool Corporation (WHR),16.0,4.6,7.1,4.4,2.0
+Westlake Corporation (WLK),29.0,17.9,3.2,8.3,2.0
+"Waste Management, Inc. (WM)",17.0,8.1,5.2,3.3,2.0
+"The Williams Companies, Inc. (WMB)",22.0,8.7,10.1,3.0,2.0
+Walmart Inc. (WMT),25.0,5.9,12.4,7.1,3.0
+W. P. Carey Inc. (WPC),16.0,4.2,5.0,6.5,0.0
+Wheaton Precious Metals Corp. (WPM),7.0,0.1,2.7,4.6,0.0
+W. R. Berkley Corporation (WRB),22.0,2.0,7.9,11.9,1.0
+"Essential Utilities, Inc. (WTRG)",25.0,6.8,11.4,6.4,1.0
+Willis Towers Watson Public Limited Company (WTW),19.0,0.1,7.8,10.8,2.0
+The Western Union Company (WU),15.0,4.4,6.0,4.9,1.0
+Weyerhaeuser Company (WY),17.0,9.1,4.2,3.5,2.0
+"Wynn Resorts, Limited (WYNN)",26.0,3.4,11.8,10.6,2.0
+United States Steel Corporation (X),30.0,14.5,9.7,6.2,3.0
+Xcel Energy Inc. (XEL),26.0,12.7,9.3,4.5,2.0
+Exxon Mobil Corporation (XOM),42.0,23.1,10.0,8.5,3.0
+DENTSPLY SIRONA Inc. (XRAY),15.0,2.1,6.5,6.3,1.0
+Xylem Inc. (XYL),18.0,4.3,8.7,5.2,1.0
+"Yum! Brands, Inc. (YUM)",20.0,4.5,11.4,4.1,2.0
+"Zillow Group, Inc. (Z)",22.0,1.2,11.5,9.5,2.0
+"Zimmer Biomet Holdings, Inc. (ZBH)",26.0,3.6,14.5,7.9,2.0
+Zoetis Inc. (ZTS),19.0,3.2,6.8,8.7,2.0
