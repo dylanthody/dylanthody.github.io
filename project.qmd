@@ -26,6 +26,7 @@ library(tidyverse)
 library(skimr)
 library(ggthemes)
 library(hrbrthemes)
+install.packages("reticulate", repos = "https://cloud.r-project.org")
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -113,8 +114,6 @@ Below I am going to provide both grouped and un-grouped descriptive statistics a
 First you need to load the necessary libraries.
 
 ```{r}
-# Install and load reticulate package
-install.packages("reticulate")
 library(reticulate)
 
 # Set the Python path

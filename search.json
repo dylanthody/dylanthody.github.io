@@ -179,13 +179,34 @@
     "href": "project.html#yfinance",
     "title": "DANL 210 Project",
     "section": "2.1 yfinance",
-    "text": "2.1 yfinance\nyfinance is a Python library that provides an easy to use interface in order to access financial data from Yahoo Finance.\nTo use it, you have to first install yfinance using:\npip install yfinance\nThen you create a ticker object for the company you are interested in using. For example I will create a ticker object for Apple below:\nticker = yf.Ticker(“AAPL”)\nTo retrieve financials for annual data, you use:\nticker.financials\nTo get access to a company balance sheet, you use:\nticker.balance_sheet\nTo get access to a Cash Flow Statement, you use:\nticker.cashflow\nyfinance is highly effecient for pulling structured financial data quickly, making it ideal for financial anlaysis and modeling."
+    "text": "2.1 yfinance\nyfinance is a Python library that provides an easy to use interface in order to access financial data from Yahoo Finance.\nTo use it, you have to first install yfinance using:\n‘pip install yfinance’\nThen you create a ticker object for the company you are interested in using. For example I will create a ticker object for Apple below:\n‘ticker = yf.Ticker(“AAPL”)’\nTo retrieve financials for annual data, you use:\n‘ticker.financials’\nTo get access to a company balance sheet, you use:\n‘ticker.balance_sheet’\nTo get access to a Cash Flow Statement, you use:\n‘ticker.cashflow’\nyfinance is highly effecient for pulling structured financial data quickly, making it ideal for financial anlaysis and modeling."
   },
   {
     "objectID": "project.html#selenium",
     "href": "project.html#selenium",
     "title": "DANL 210 Project",
     "section": "2.2 selenium",
-    "text": "2.2 selenium\nselenium is a powerful tool for web scraping and browser automation. It can be used to extract ESG (Environmental, Social, and Governance) data from websites like Yahoo Finance that do not provide an API for such data.\nTo install selenium you use:\npip install selenium\nTo navigate to Web Pages you use the WebDriver to the target URL which in this case would be to the Yahoo Finance page.\nUse WebDriver methods to locate and extract ESG data elements from the webpage using techniques such as XPath or CSS selectors.\nYou can also handle page loading and dynamic content using:\ntime.sleep()\nCombining yfinance for financial and accounting data with selenium for ESG data allows you to comprehensively analyze a company’s performance and sustainability. This dual approach leverages the strengths of both libraries, providing a robust solution for data retrieval in financial analysis and ESG reporting."
+    "text": "2.2 selenium\nselenium is a powerful tool for web scraping and browser automation. It can be used to extract ESG (Environmental, Social, and Governance) data from websites like Yahoo Finance that do not provide an API for such data.\nTo install selenium you use:\n‘pip install selenium’\nTo navigate to Web Pages you use the WebDriver to the target URL which in this case would be to the Yahoo Finance page.\nUse WebDriver methods to locate and extract ESG data elements from the webpage using techniques such as XPath or CSS selectors.\nYou can also handle page loading and dynamic content using:\n‘time.sleep()’\nCombining yfinance for financial and accounting data with selenium for ESG data allows you to comprehensively analyze a company’s performance and sustainability. This dual approach leverages the strengths of both libraries, providing a robust solution for data retrieval in financial analysis and ESG reporting."
+  },
+  {
+    "objectID": "project.html#question-1",
+    "href": "project.html#question-1",
+    "title": "DANL 210 Project",
+    "section": "4.1 Question 1",
+    "text": "4.1 Question 1\nWhat are the mean and standard deviation of the closing prices for each company over the last year?\n\nlibrary(reticulate)\n\nuse_python(\"/opt/anaconda3/bin/python3\")\n\npy_run_string(\"\nimport pandas as pd\n\nfinancial_data = pd.read_csv('financial_data.csv')\n\nmean_std = financial_data.groupby('Symbol')['Close'].agg(['mean', 'std'])\nprint(mean_std)\n\")\n\n              mean        std\nSymbol                       \nAAPL    181.146427   8.380725\nAMZN    148.549881  21.280316\nGOOGL   137.213849  12.458403\nMSFT    364.478164  37.687331"
+  },
+  {
+    "objectID": "project.html#question-2",
+    "href": "project.html#question-2",
+    "title": "DANL 210 Project",
+    "section": "4.2 Question 2",
+    "text": "4.2 Question 2\nWhat is the distribution of closing prices for each company?\n\nlibrary(reticulate)\n\nuse_python(\"/opt/anaconda3/bin/python3\")\n\npy_run_string(\"\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nfinancial_data = pd.read_csv('financial_data.csv')\n\nplt.figure(figsize=(14, 7))\nsns.histplot(data=financial_data, x='Close', hue='Symbol', multiple='stack', kde=True)\nplt.title('Distribution of Closing Prices for Each Company')\nplt.xlabel('Close')\nplt.ylabel('Frequency')\nplt.show()\n\")"
+  },
+  {
+    "objectID": "project.html#question-3",
+    "href": "project.html#question-3",
+    "title": "DANL 210 Project",
+    "section": "4.3 Question 3",
+    "text": "4.3 Question 3\nAre there any significant correlations between the closing prices of different companies?\n\nlibrary(reticulate)\n\nuse_python(\"/opt/anaconda3/bin/python3\")\n\npy_run_string(\"\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nfinancial_data = pd.read_csv('financial_data.csv')\n\nfinancial_data_numeric = financial_data.pivot_table(index='Date', columns='Symbol', values='Close')\n\nfinancial_corr = financial_data_numeric.corr()\nprint(financial_corr)\n\nplt.figure(figsize=(10, 8))\nsns.heatmap(financial_corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)\nplt.title('Correlation Heatmap for Closing Prices')\nplt.show()\n\")\n\nSymbol      AAPL      AMZN     GOOGL      MSFT\nSymbol                                        \nAAPL    1.000000 -0.152183 -0.184896 -0.010555\nAMZN   -0.152183  1.000000  0.852946  0.942318\nGOOGL  -0.184896  0.852946  1.000000  0.759236\nMSFT   -0.010555  0.942318  0.759236  1.000000\n\n\n##Question 4\nHow do the distributions of the Environmental, Social, and Governance scores compare?\n\nlibrary(reticulate)\n\nuse_python(\"/opt/anaconda3/bin/python3\")\n\npy_run_string(\"\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nesg_data = pd.read_csv('cleaned_esg_data.csv')\n\nplt.figure(figsize=(14, 7))\nfor col in esg_data.columns[1:]:\n    sns.kdeplot(esg_data[col], label=col, fill=True)\nplt.title('Distribution of ESG Scores')\nplt.xlabel('Score')\nplt.ylabel('Density')\nplt.legend()\nplt.show()\n\")"
   }
 ]
